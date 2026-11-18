@@ -1,0 +1,2981 @@
+{
+  "schema": "virelanthar.grammar-lexicon/1.0.0",
+  "language": "Virelanthar",
+  "release": "1.0.0",
+  "canon_policy": "Normative new working edition, not a retroactive historical source.",
+  "sources": [
+    "BEKW_MASTER_COLD_START_v1.0.md",
+    "VIRELANTHAR_ZOE_TRANSLATOR_HANDOFF_Lexicon_Grammar_Source_Audit_v0.1.md"
+  ],
+  "grammar": {
+    "default_clause": "subject [ne] [ya|so] [nu|se] verb [object/complement] [ra nominal_resonance [echo]] [na infinitive_or_subject+verb+object]",
+    "tense": {
+      "present": "unmarked",
+      "past": "ya",
+      "future": "so"
+    },
+    "aspect": {
+      "unmarked": "simple",
+      "progressive": "nu",
+      "completed": "se"
+    },
+    "negation": "ne before tense/aspect/verb",
+    "question": "ke at end, interrogative first for content questions",
+    "imperative": "e followed by bare verb; optional preceding sha",
+    "plural": "len immediately follows noun before adjective; not after numerals",
+    "adjective": "postnominal invariant",
+    "possession": "noun di possessor",
+    "echo": {
+      "a": "ha",
+      "e": "he",
+      "i": "hi",
+      "o": "ho",
+      "u": "hu"
+    },
+    "productive_prefixes": {
+      "a-": "begin verb action",
+      "ta-": "transform/remake by verb action",
+      "vi-": "internal/reflective verb action"
+    },
+    "productive_suffixes": {
+      "-ar": "verb outward/community action",
+      "-eth": "verb in remembrance",
+      "-el": "adjective enduring",
+      "-ai": "adjective emerging"
+    },
+    "numeral_compounds": "11=elvai-en-velûn; 20=dorai-elvai; 21=dorai-elvai-en-velûn; 100=elvar"
+  },
+  "pillars": [
+    {
+      "form": "Voh’resh",
+      "en": "Catalyst of transformation",
+      "fr": "Catalyseur de transformation",
+      "status": "preserved"
+    },
+    {
+      "form": "Ralim’e",
+      "en": "Breath of harmonization",
+      "fr": "Souffle d’harmonisation",
+      "status": "preserved"
+    },
+    {
+      "form": "El’shava",
+      "en": "Memory of wholeness",
+      "fr": "Mémoire de l’intégrité / de la complétude",
+      "status": "preserved"
+    },
+    {
+      "form": "Tulan’var",
+      "en": "Heart of radiant will",
+      "fr": "Cœur de volonté rayonnante",
+      "status": "preserved"
+    }
+  ],
+  "fixed_formulas": [
+    {
+      "form": "Ek’vesh’arun.",
+      "en": "And yet I shine.",
+      "fr": "Et pourtant, je rayonne.",
+      "status": "preserved"
+    },
+    {
+      "form": "Esh’valun leth’aré.",
+      "en": "And the breath remembers.",
+      "fr": "Et le souffle se souvient.",
+      "status": "preserved"
+    },
+    {
+      "form": "Thésarim nuvahl’ei.",
+      "en": "Peace to the breath between us.",
+      "fr": "Paix au souffle entre nous.",
+      "status": "archived_whole_phrase"
+    }
+  ],
+  "lexicon": [
+    {
+      "form": "mi",
+      "pos": "pron",
+      "en": "I; me",
+      "fr": "je; moi",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ti",
+      "pos": "pron",
+      "en": "you (one person)",
+      "fr": "tu; toi",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sa",
+      "pos": "pron",
+      "en": "they (one person, any gender)",
+      "fr": "iel; il ou elle selon contexte",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "si",
+      "pos": "pron",
+      "en": "it; that nonperson referent",
+      "fr": "cela; il ou elle non personnel",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mina",
+      "pos": "pron",
+      "en": "we (including you)",
+      "fr": "nous (toi inclus)",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mira",
+      "pos": "pron",
+      "en": "we (excluding you)",
+      "fr": "nous (toi exclu)",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tira",
+      "pos": "pron",
+      "en": "you (plural)",
+      "fr": "vous",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sara",
+      "pos": "pron",
+      "en": "they (plural)",
+      "fr": "ils/elles/iels (pluriel)",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "neli",
+      "pos": "dem",
+      "en": "this",
+      "fr": "ceci; ce/cette",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thori",
+      "pos": "dem",
+      "en": "that",
+      "fr": "cela; ce/cette-là",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mel",
+      "pos": "quant",
+      "en": "all; every",
+      "fr": "tout; chaque",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kel",
+      "pos": "quant",
+      "en": "some; certain",
+      "fr": "quelques; certain",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "zel",
+      "pos": "quant",
+      "en": "none",
+      "fr": "aucun; aucune",
+      "category": "01 · Pronouns and reference",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ei",
+      "pos": "det",
+      "en": "the (specific)",
+      "fr": "le; la; les",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "un",
+      "pos": "det",
+      "en": "a; an (unspecified)",
+      "fr": "un; une",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "len",
+      "pos": "particle",
+      "en": "plural marker following noun",
+      "fr": "marque de pluriel après le nom",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "di",
+      "pos": "prep",
+      "en": "of; belonging to",
+      "fr": "de; appartenant à",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ar",
+      "pos": "conj",
+      "en": "and",
+      "fr": "et",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ath",
+      "pos": "conj",
+      "en": "but",
+      "fr": "mais",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ek",
+      "pos": "conj",
+      "en": "yet; nevertheless",
+      "fr": "pourtant; néanmoins",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "or",
+      "pos": "conj",
+      "en": "or",
+      "fr": "ou",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vel",
+      "pos": "conj",
+      "en": "because",
+      "fr": "parce que",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "esh",
+      "pos": "conj",
+      "en": "therefore",
+      "fr": "donc",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ra",
+      "pos": "particle",
+      "en": "resonance clause marker",
+      "fr": "marqueur de résonance",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "na",
+      "pos": "particle",
+      "en": "intent or purpose clause marker",
+      "fr": "marqueur d’intention ou de but",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ke",
+      "pos": "particle",
+      "en": "yes/no question marker at sentence end",
+      "fr": "marqueur de question fermée en fin de phrase",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ne",
+      "pos": "particle",
+      "en": "not; negation before tense and verb",
+      "fr": "ne…pas; négation avant temps et verbe",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ya",
+      "pos": "particle",
+      "en": "past tense before verb",
+      "fr": "passé avant le verbe",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "so",
+      "pos": "particle",
+      "en": "future tense before verb",
+      "fr": "futur avant le verbe",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nu",
+      "pos": "particle",
+      "en": "progressive or ongoing aspect",
+      "fr": "aspect en cours",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "se",
+      "pos": "particle",
+      "en": "completed/perfect aspect",
+      "fr": "aspect accompli",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ila",
+      "pos": "conj",
+      "en": "if",
+      "fr": "si (condition)",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ena",
+      "pos": "conj",
+      "en": "then, in a condition",
+      "fr": "alors",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "va",
+      "pos": "prep",
+      "en": "at; in; inside",
+      "fr": "à; dans",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sur",
+      "pos": "prep",
+      "en": "on; upon",
+      "fr": "sur",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nel",
+      "pos": "prep",
+      "en": "beneath; under",
+      "fr": "sous",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "en",
+      "pos": "prep",
+      "en": "to; toward",
+      "fr": "vers; à",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "dor",
+      "pos": "prep",
+      "en": "from; out of",
+      "fr": "de; depuis",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lo",
+      "pos": "prep",
+      "en": "with; alongside",
+      "fr": "avec; aux côtés de",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tor",
+      "pos": "prep",
+      "en": "by means of; using",
+      "fr": "au moyen de; avec (outil)",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "av",
+      "pos": "prep",
+      "en": "without",
+      "fr": "sans",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "isha",
+      "pos": "prep",
+      "en": "before",
+      "fr": "avant",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "orai",
+      "pos": "prep",
+      "en": "after",
+      "fr": "après",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "zen",
+      "pos": "prep",
+      "en": "like; similar to",
+      "fr": "comme; semblable à",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "li",
+      "pos": "prep",
+      "en": "than (comparison)",
+      "fr": "que (comparaison)",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ira",
+      "pos": "adv",
+      "en": "here",
+      "fr": "ici",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nora",
+      "pos": "adv",
+      "en": "there",
+      "fr": "là-bas",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "teva",
+      "pos": "adv",
+      "en": "now",
+      "fr": "maintenant",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "dai",
+      "pos": "adv",
+      "en": "today",
+      "fr": "aujourd’hui",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mair",
+      "pos": "adv",
+      "en": "yesterday",
+      "fr": "hier",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "salé",
+      "pos": "adv",
+      "en": "tomorrow",
+      "fr": "demain",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ale",
+      "pos": "adv",
+      "en": "always",
+      "fr": "toujours",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nev",
+      "pos": "adv",
+      "en": "never",
+      "fr": "jamais",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sela",
+      "pos": "adv",
+      "en": "sometimes",
+      "fr": "parfois",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vae",
+      "pos": "interj",
+      "en": "yes",
+      "fr": "oui",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nir",
+      "pos": "interj",
+      "en": "no",
+      "fr": "non",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sha",
+      "pos": "particle",
+      "en": "please; polite request introducer",
+      "fr": "s’il te plaît; s’il vous plaît",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "e",
+      "pos": "particle",
+      "en": "imperative before bare verb",
+      "fr": "impératif devant le verbe nu",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ur",
+      "pos": "adv",
+      "en": "only",
+      "fr": "seulement",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "dhi",
+      "pos": "adv",
+      "en": "also",
+      "fr": "aussi",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "fal",
+      "pos": "adv",
+      "en": "enough; sufficiently",
+      "fr": "assez; suffisamment",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ka",
+      "pos": "particle",
+      "en": "ordinal marker after number",
+      "fr": "marqueur ordinal après le nombre",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ha",
+      "pos": "echo",
+      "en": "echo of stressed vowel a",
+      "fr": "écho de la voyelle tonique a",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "he",
+      "pos": "echo",
+      "en": "echo of stressed vowel e",
+      "fr": "écho de la voyelle tonique e",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "hi",
+      "pos": "echo",
+      "en": "echo of stressed vowel i",
+      "fr": "écho de la voyelle tonique i",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ho",
+      "pos": "echo",
+      "en": "echo of stressed vowel o",
+      "fr": "écho de la voyelle tonique o",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "hu",
+      "pos": "echo",
+      "en": "echo of stressed vowel u",
+      "fr": "écho de la voyelle tonique u",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "hara",
+      "pos": "interrog",
+      "en": "who",
+      "fr": "qui",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "haren",
+      "pos": "interrog",
+      "en": "what",
+      "fr": "quoi; que",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "havor",
+      "pos": "interrog",
+      "en": "where",
+      "fr": "où",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "haten",
+      "pos": "interrog",
+      "en": "when",
+      "fr": "quand",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "hakai",
+      "pos": "interrog",
+      "en": "how",
+      "fr": "comment",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "haveth",
+      "pos": "interrog",
+      "en": "why",
+      "fr": "pourquoi",
+      "category": "02 · Grammar words and particles",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nirae",
+      "pos": "number",
+      "en": "zero",
+      "fr": "zéro",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "velûn",
+      "pos": "number",
+      "en": "one",
+      "fr": "un",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "dorai",
+      "pos": "number",
+      "en": "two",
+      "fr": "deux",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "savael",
+      "pos": "number",
+      "en": "three",
+      "fr": "trois",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "khalor",
+      "pos": "number",
+      "en": "four",
+      "fr": "quatre",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "thumé",
+      "pos": "number",
+      "en": "five",
+      "fr": "cinq",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "zireth",
+      "pos": "number",
+      "en": "six",
+      "fr": "six",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "valem",
+      "pos": "number",
+      "en": "seven",
+      "fr": "sept",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "ravos",
+      "pos": "number",
+      "en": "eight",
+      "fr": "huit",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "naurel",
+      "pos": "number",
+      "en": "nine",
+      "fr": "neuf",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "elvai",
+      "pos": "number",
+      "en": "ten",
+      "fr": "dix",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "elvar",
+      "pos": "number",
+      "en": "one hundred",
+      "fr": "cent",
+      "category": "03 · Numbers",
+      "origin": "2026_selection_from_legacy_B"
+    },
+    {
+      "form": "vethra",
+      "pos": "noun",
+      "en": "water",
+      "fr": "eau",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "solin",
+      "pos": "noun",
+      "en": "sunlight",
+      "fr": "lumière du soleil",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "kuran",
+      "pos": "noun",
+      "en": "bread; sustenance",
+      "fr": "pain; subsistance",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "tiranel",
+      "pos": "noun",
+      "en": "clothing",
+      "fr": "vêtement; habillement",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "arveth",
+      "pos": "noun",
+      "en": "home; hearth",
+      "fr": "foyer; maison",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "luréna",
+      "pos": "noun",
+      "en": "cup; vessel",
+      "fr": "tasse; récipient",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "nuvarel",
+      "pos": "noun",
+      "en": "fire",
+      "fr": "feu",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "talash",
+      "pos": "noun",
+      "en": "tool",
+      "fr": "outil",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "veranil",
+      "pos": "noun",
+      "en": "path; road",
+      "fr": "chemin; route",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "selmari",
+      "pos": "noun",
+      "en": "window; opening",
+      "fr": "fenêtre; ouverture",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "thúlen",
+      "pos": "noun",
+      "en": "food",
+      "fr": "nourriture",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "kiravel",
+      "pos": "noun",
+      "en": "plant; herb",
+      "fr": "plante; herbe",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "miretha",
+      "pos": "noun",
+      "en": "blanket",
+      "fr": "couverture",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "vorthin",
+      "pos": "noun",
+      "en": "door",
+      "fr": "porte",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "talreni",
+      "pos": "noun",
+      "en": "hands (collective or pair)",
+      "fr": "mains (ensemble)",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "shivaral",
+      "pos": "noun",
+      "en": "bed",
+      "fr": "lit",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "lunareth",
+      "pos": "noun",
+      "en": "moonlight",
+      "fr": "clair de lune",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "keshula",
+      "pos": "noun",
+      "en": "bowl",
+      "fr": "bol; écuelle",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "ariven",
+      "pos": "noun",
+      "en": "mirror",
+      "fr": "miroir",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "vesh’alin",
+      "pos": "noun",
+      "en": "sky",
+      "fr": "ciel",
+      "category": "04 · Everyday retained lexicon",
+      "origin": "legacy_draft_adopted_2026"
+    },
+    {
+      "form": "aloran",
+      "pos": "noun",
+      "en": "person",
+      "fr": "personne",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sivara",
+      "pos": "noun",
+      "en": "child",
+      "fr": "enfant",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lumeth",
+      "pos": "noun",
+      "en": "friend",
+      "fr": "ami; amie",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "norel",
+      "pos": "noun",
+      "en": "elder",
+      "fr": "aîné; aînée",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "maval",
+      "pos": "noun",
+      "en": "maker; artisan",
+      "fr": "fabricant; artisan",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tarin",
+      "pos": "noun",
+      "en": "singer",
+      "fr": "chanteur; chanteuse",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "solara",
+      "pos": "noun",
+      "en": "song",
+      "fr": "chanson",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shaveth",
+      "pos": "noun",
+      "en": "voice",
+      "fr": "voix",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nuvai",
+      "pos": "noun",
+      "en": "breath",
+      "fr": "souffle",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ilan",
+      "pos": "noun",
+      "en": "light",
+      "fr": "lumière",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "moren",
+      "pos": "noun",
+      "en": "darkness",
+      "fr": "obscurité",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "velor",
+      "pos": "noun",
+      "en": "truth",
+      "fr": "vérité",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "silor",
+      "pos": "noun",
+      "en": "silence",
+      "fr": "silence",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "draval",
+      "pos": "noun",
+      "en": "soul; essence of a person",
+      "fr": "âme; essence d’une personne",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sorel",
+      "pos": "noun",
+      "en": "name",
+      "fr": "nom",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "rhalin",
+      "pos": "noun",
+      "en": "memory",
+      "fr": "mémoire; souvenir",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "aveth",
+      "pos": "noun",
+      "en": "joy",
+      "fr": "joie",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "davar",
+      "pos": "noun",
+      "en": "courage",
+      "fr": "courage",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vashor",
+      "pos": "noun",
+      "en": "hope",
+      "fr": "espoir",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kelira",
+      "pos": "noun",
+      "en": "wonder; amazement",
+      "fr": "émerveillement",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "talvar",
+      "pos": "noun",
+      "en": "will; resolve",
+      "fr": "volonté; détermination",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sarael",
+      "pos": "noun",
+      "en": "kindness",
+      "fr": "bienveillance",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nolar",
+      "pos": "noun",
+      "en": "care; attentive support",
+      "fr": "soin; attention",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "leth",
+      "pos": "noun",
+      "en": "harmonized minds; shared thought",
+      "fr": "esprits en harmonie; pensée partagée",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vire",
+      "pos": "noun",
+      "en": "living resonance",
+      "fr": "résonance vivante",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tal",
+      "pos": "noun",
+      "en": "free gift",
+      "fr": "don offert librement",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ael",
+      "pos": "noun",
+      "en": "essence; presence (not a numeral)",
+      "fr": "essence; présence (pas un nombre)",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kera",
+      "pos": "noun",
+      "en": "word",
+      "fr": "mot",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kireth",
+      "pos": "noun",
+      "en": "language",
+      "fr": "langue",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nivar",
+      "pos": "noun",
+      "en": "grammar",
+      "fr": "grammaire",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "morae",
+      "pos": "noun",
+      "en": "meaning",
+      "fr": "sens; signification",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kelar",
+      "pos": "noun",
+      "en": "question",
+      "fr": "question",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "valera",
+      "pos": "noun",
+      "en": "answer",
+      "fr": "réponse",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "soral",
+      "pos": "noun",
+      "en": "story",
+      "fr": "histoire; récit",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "selovar",
+      "pos": "noun",
+      "en": "book",
+      "fr": "livre",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lanira",
+      "pos": "noun",
+      "en": "page",
+      "fr": "page",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tiravel",
+      "pos": "noun",
+      "en": "letter; character of writing",
+      "fr": "lettre; caractère écrit",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vashira",
+      "pos": "noun",
+      "en": "music",
+      "fr": "musique",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "silen",
+      "pos": "noun",
+      "en": "sound",
+      "fr": "son",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "rai",
+      "pos": "noun",
+      "en": "echo",
+      "fr": "écho",
+      "category": "05 · People, language, heart",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thalen",
+      "pos": "noun",
+      "en": "earth; soil",
+      "fr": "terre; sol",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "eruin",
+      "pos": "noun",
+      "en": "stone",
+      "fr": "pierre",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "navel",
+      "pos": "noun",
+      "en": "air; wind",
+      "fr": "air; vent",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sol",
+      "pos": "noun",
+      "en": "sun",
+      "fr": "soleil",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lunar",
+      "pos": "noun",
+      "en": "moon",
+      "fr": "lune",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "eshala",
+      "pos": "noun",
+      "en": "star",
+      "fr": "étoile",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shael",
+      "pos": "noun",
+      "en": "rain",
+      "fr": "pluie",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "miren",
+      "pos": "noun",
+      "en": "snow",
+      "fr": "neige",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vraen",
+      "pos": "noun",
+      "en": "ice",
+      "fr": "glace",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "saram",
+      "pos": "noun",
+      "en": "storm",
+      "fr": "tempête",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vathra",
+      "pos": "noun",
+      "en": "river",
+      "fr": "rivière",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ithren",
+      "pos": "noun",
+      "en": "tree",
+      "fr": "arbre",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kalum",
+      "pos": "noun",
+      "en": "seed",
+      "fr": "graine",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tirasha",
+      "pos": "noun",
+      "en": "leaf",
+      "fr": "feuille",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "naren",
+      "pos": "noun",
+      "en": "root",
+      "fr": "racine",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "arash",
+      "pos": "noun",
+      "en": "flower; blossom",
+      "fr": "fleur",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mivara",
+      "pos": "noun",
+      "en": "forest",
+      "fr": "forêt",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nethar",
+      "pos": "noun",
+      "en": "desert",
+      "fr": "désert",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tholun",
+      "pos": "noun",
+      "en": "mountain",
+      "fr": "montagne",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ravel",
+      "pos": "noun",
+      "en": "valley",
+      "fr": "vallée",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shorel",
+      "pos": "noun",
+      "en": "sea",
+      "fr": "mer",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "umara",
+      "pos": "noun",
+      "en": "cultivated field",
+      "fr": "champ cultivé",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "navael",
+      "pos": "noun",
+      "en": "animal; creature",
+      "fr": "animal; créature",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kanor",
+      "pos": "noun",
+      "en": "bird",
+      "fr": "oiseau",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ashira",
+      "pos": "noun",
+      "en": "fish",
+      "fr": "poisson",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vular",
+      "pos": "noun",
+      "en": "soil fertility",
+      "fr": "fertilité du sol",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "merin",
+      "pos": "noun",
+      "en": "spring of water",
+      "fr": "source d’eau",
+      "category": "06 · Land, sky and living world",
+      "origin": "new_standard"
+    },
+    {
+      "form": "salen",
+      "pos": "noun",
+      "en": "room",
+      "fr": "pièce; salle",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sovar",
+      "pos": "noun",
+      "en": "table",
+      "fr": "table",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kelu",
+      "pos": "noun",
+      "en": "chair",
+      "fr": "chaise",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "toren",
+      "pos": "noun",
+      "en": "roof",
+      "fr": "toit",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "salvar",
+      "pos": "noun",
+      "en": "wall",
+      "fr": "mur",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ralan",
+      "pos": "noun",
+      "en": "floor",
+      "fr": "plancher; sol d’un bâtiment",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "eravi",
+      "pos": "noun",
+      "en": "bridge",
+      "fr": "pont",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tavren",
+      "pos": "noun",
+      "en": "rail; track",
+      "fr": "rail; voie",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "olara",
+      "pos": "noun",
+      "en": "nexus; exchange hub",
+      "fr": "nœud central; carrefour d’échange",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "raveth",
+      "pos": "noun",
+      "en": "market",
+      "fr": "marché",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "varel",
+      "pos": "noun",
+      "en": "garden",
+      "fr": "jardin",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "levanor",
+      "pos": "noun",
+      "en": "greenhouse",
+      "fr": "serre",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "korava",
+      "pos": "noun",
+      "en": "dome",
+      "fr": "dôme",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "navor",
+      "pos": "noun",
+      "en": "machine",
+      "fr": "machine",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "oraen",
+      "pos": "noun",
+      "en": "forge; workshop",
+      "fr": "forge; atelier",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thavar",
+      "pos": "noun",
+      "en": "musical instrument",
+      "fr": "instrument de musique",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thovan",
+      "pos": "noun",
+      "en": "power; energy supply",
+      "fr": "puissance; énergie disponible",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "saren",
+      "pos": "noun",
+      "en": "electrical current",
+      "fr": "courant électrique",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shalen",
+      "pos": "noun",
+      "en": "balance; equilibrium",
+      "fr": "équilibre",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "savra",
+      "pos": "noun",
+      "en": "storage; reserve",
+      "fr": "stockage; réserve",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "gorel",
+      "pos": "noun",
+      "en": "motion; movement",
+      "fr": "mouvement",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "laven",
+      "pos": "noun",
+      "en": "heat",
+      "fr": "chaleur",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "malen",
+      "pos": "noun",
+      "en": "cold; chill",
+      "fr": "froid",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "velana",
+      "pos": "noun",
+      "en": "electric light or lamp",
+      "fr": "lampe; éclairage électrique",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mereth",
+      "pos": "noun",
+      "en": "measurement",
+      "fr": "mesure",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "relan",
+      "pos": "noun",
+      "en": "record; ledger",
+      "fr": "registre",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "keran",
+      "pos": "noun",
+      "en": "design; plan",
+      "fr": "plan; conception",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "alvar",
+      "pos": "noun",
+      "en": "work; labor",
+      "fr": "travail",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "marava",
+      "pos": "noun",
+      "en": "material",
+      "fr": "matériau",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "laveth",
+      "pos": "noun",
+      "en": "water circuit; pipe loop",
+      "fr": "circuit d’eau; tuyauterie",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "talora",
+      "pos": "noun",
+      "en": "repair",
+      "fr": "réparation",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "neshar",
+      "pos": "noun",
+      "en": "safety; security",
+      "fr": "sécurité",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vareth",
+      "pos": "noun",
+      "en": "refuge; shelter",
+      "fr": "abri; refuge",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "koran",
+      "pos": "noun",
+      "en": "community",
+      "fr": "communauté",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "daren",
+      "pos": "noun",
+      "en": "journey",
+      "fr": "voyage",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sevana",
+      "pos": "noun",
+      "en": "signal",
+      "fr": "signal",
+      "category": "07 · Work, craft, infrastructure",
+      "origin": "new_standard"
+    },
+    {
+      "form": "es",
+      "pos": "verb",
+      "en": "be; exist",
+      "fr": "être; exister",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "dalen",
+      "pos": "verb",
+      "en": "have; possess",
+      "fr": "avoir; posséder",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vael",
+      "pos": "verb",
+      "en": "create; make",
+      "fr": "créer; faire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "keth",
+      "pos": "verb",
+      "en": "forge; shape deliberately",
+      "fr": "forger; façonner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thar",
+      "pos": "verb",
+      "en": "speak",
+      "fr": "parler",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lith",
+      "pos": "verb",
+      "en": "listen",
+      "fr": "écouter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sova",
+      "pos": "verb",
+      "en": "sing",
+      "fr": "chanter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "reth",
+      "pos": "verb",
+      "en": "remember",
+      "fr": "se souvenir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "savel",
+      "pos": "verb",
+      "en": "know a fact",
+      "fr": "savoir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kenar",
+      "pos": "verb",
+      "en": "understand",
+      "fr": "comprendre",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lora",
+      "pos": "verb",
+      "en": "see",
+      "fr": "voir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vela",
+      "pos": "verb",
+      "en": "give",
+      "fr": "donner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nare",
+      "pos": "verb",
+      "en": "receive",
+      "fr": "recevoir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "seran",
+      "pos": "verb",
+      "en": "share",
+      "fr": "partager",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kora",
+      "pos": "verb",
+      "en": "build; construct",
+      "fr": "construire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kelor",
+      "pos": "verb",
+      "en": "open",
+      "fr": "ouvrir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "delor",
+      "pos": "verb",
+      "en": "close",
+      "fr": "fermer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "saran",
+      "pos": "verb",
+      "en": "move",
+      "fr": "bouger",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vathen",
+      "pos": "verb",
+      "en": "walk",
+      "fr": "marcher",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ramel",
+      "pos": "verb",
+      "en": "return",
+      "fr": "revenir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lair",
+      "pos": "verb",
+      "en": "shine",
+      "fr": "briller",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shavir",
+      "pos": "verb",
+      "en": "heal; restore",
+      "fr": "guérir; restaurer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thalor",
+      "pos": "verb",
+      "en": "learn",
+      "fr": "apprendre",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kirel",
+      "pos": "verb",
+      "en": "teach",
+      "fr": "enseigner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "levan",
+      "pos": "verb",
+      "en": "grow; cultivate",
+      "fr": "grandir; cultiver",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "neral",
+      "pos": "verb",
+      "en": "protect",
+      "fr": "protéger",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "molir",
+      "pos": "verb",
+      "en": "help",
+      "fr": "aider",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "loren",
+      "pos": "verb",
+      "en": "love; care deeply for",
+      "fr": "aimer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "doren",
+      "pos": "verb",
+      "en": "want",
+      "fr": "vouloir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "maren",
+      "pos": "verb",
+      "en": "need",
+      "fr": "avoir besoin de",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "elora",
+      "pos": "verb",
+      "en": "choose",
+      "fr": "choisir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shalar",
+      "pos": "verb",
+      "en": "balance; equalize",
+      "fr": "équilibrer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "morel",
+      "pos": "verb",
+      "en": "ask",
+      "fr": "demander",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "valen",
+      "pos": "verb",
+      "en": "answer",
+      "fr": "répondre",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "navir",
+      "pos": "verb",
+      "en": "travel",
+      "fr": "voyager",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ravir",
+      "pos": "verb",
+      "en": "connect",
+      "fr": "relier",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kirar",
+      "pos": "verb",
+      "en": "plant",
+      "fr": "planter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "daval",
+      "pos": "verb",
+      "en": "dare",
+      "fr": "oser",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "niveth",
+      "pos": "verb",
+      "en": "write",
+      "fr": "écrire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "selir",
+      "pos": "verb",
+      "en": "read",
+      "fr": "lire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lanir",
+      "pos": "verb",
+      "en": "draw",
+      "fr": "dessiner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "varin",
+      "pos": "verb",
+      "en": "work",
+      "fr": "travailler",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "talir",
+      "pos": "verb",
+      "en": "measure",
+      "fr": "mesurer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "makel",
+      "pos": "verb",
+      "en": "repair",
+      "fr": "réparer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "naral",
+      "pos": "verb",
+      "en": "clean",
+      "fr": "nettoyer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "valesh",
+      "pos": "verb",
+      "en": "heat",
+      "fr": "chauffer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "morir",
+      "pos": "verb",
+      "en": "cool",
+      "fr": "refroidir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nural",
+      "pos": "verb",
+      "en": "drink",
+      "fr": "boire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kural",
+      "pos": "verb",
+      "en": "eat",
+      "fr": "manger",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "zaren",
+      "pos": "verb",
+      "en": "rest",
+      "fr": "se reposer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lenir",
+      "pos": "verb",
+      "en": "sleep",
+      "fr": "dormir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ralir",
+      "pos": "verb",
+      "en": "laugh",
+      "fr": "rire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "avira",
+      "pos": "verb",
+      "en": "smile",
+      "fr": "sourire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "laren",
+      "pos": "verb",
+      "en": "breathe",
+      "fr": "respirer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "vera",
+      "pos": "verb",
+      "en": "live",
+      "fr": "vivre",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "dresha",
+      "pos": "verb",
+      "en": "die",
+      "fr": "mourir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thir",
+      "pos": "verb",
+      "en": "feel",
+      "fr": "sentir; ressentir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "maveth",
+      "pos": "verb",
+      "en": "think",
+      "fr": "penser",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ariel",
+      "pos": "verb",
+      "en": "begin",
+      "fr": "commencer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "durin",
+      "pos": "verb",
+      "en": "finish",
+      "fr": "terminer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "velar",
+      "pos": "verb",
+      "en": "continue",
+      "fr": "continuer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "darin",
+      "pos": "verb",
+      "en": "wait",
+      "fr": "attendre",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shorav",
+      "pos": "verb",
+      "en": "change",
+      "fr": "changer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "renar",
+      "pos": "verb",
+      "en": "free; release",
+      "fr": "libérer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "salor",
+      "pos": "verb",
+      "en": "stay; remain",
+      "fr": "rester",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "melir",
+      "pos": "verb",
+      "en": "gather",
+      "fr": "rassembler",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "cavar",
+      "pos": "verb",
+      "en": "carry",
+      "fr": "porter; transporter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "toral",
+      "pos": "verb",
+      "en": "bring",
+      "fr": "apporter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lareth",
+      "pos": "verb",
+      "en": "take",
+      "fr": "prendre",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "hesar",
+      "pos": "verb",
+      "en": "hold",
+      "fr": "tenir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nethir",
+      "pos": "verb",
+      "en": "explore",
+      "fr": "explorer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sereth",
+      "pos": "verb",
+      "en": "trust",
+      "fr": "faire confiance",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "volar",
+      "pos": "verb",
+      "en": "forgive",
+      "fr": "pardonner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kaveth",
+      "pos": "verb",
+      "en": "test; examine",
+      "fr": "tester; examiner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "talor",
+      "pos": "verb",
+      "en": "count",
+      "fr": "compter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "voran",
+      "pos": "verb",
+      "en": "fail",
+      "fr": "échouer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thovar",
+      "pos": "verb",
+      "en": "succeed",
+      "fr": "réussir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "iranel",
+      "pos": "verb",
+      "en": "invent",
+      "fr": "inventer",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nariel",
+      "pos": "verb",
+      "en": "uncover; reveal",
+      "fr": "découvrir; révéler",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "dovar",
+      "pos": "verb",
+      "en": "leave",
+      "fr": "partir; quitter",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "avar",
+      "pos": "verb",
+      "en": "arrive",
+      "fr": "arriver",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "senal",
+      "pos": "verb",
+      "en": "believe",
+      "fr": "croire",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "viren",
+      "pos": "verb",
+      "en": "resonate",
+      "fr": "résonner",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "varelir",
+      "pos": "verb",
+      "en": "translate between languages",
+      "fr": "traduire entre langues",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shavet",
+      "pos": "verb",
+      "en": "be able to; can",
+      "fr": "pouvoir",
+      "category": "08 · Core verbs (invariant roots)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nal",
+      "pos": "adj",
+      "en": "good",
+      "fr": "bon; bonne",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shen",
+      "pos": "adj",
+      "en": "bad",
+      "fr": "mauvais; mauvaise",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "solé",
+      "pos": "adj",
+      "en": "bright; sunlit",
+      "fr": "lumineux; ensoleillé",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "moré",
+      "pos": "adj",
+      "en": "dark",
+      "fr": "sombre",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "naré",
+      "pos": "adj",
+      "en": "new",
+      "fr": "nouveau; nouvelle",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "erath",
+      "pos": "adj",
+      "en": "old; ancient",
+      "fr": "ancien; ancienne",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "selé",
+      "pos": "adj",
+      "en": "quiet",
+      "fr": "silencieux; silencieuse",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "rané",
+      "pos": "adj",
+      "en": "loud",
+      "fr": "bruyant; bruyante",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "koré",
+      "pos": "adj",
+      "en": "strong",
+      "fr": "fort; forte",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "lurá",
+      "pos": "adj",
+      "en": "warm",
+      "fr": "chaud; chaleureuse",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "mala",
+      "pos": "adj",
+      "en": "cold",
+      "fr": "froid; froide",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "talé",
+      "pos": "adj",
+      "en": "free",
+      "fr": "libre",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sera",
+      "pos": "adj",
+      "en": "shared",
+      "fr": "partagé; partagée",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shalé",
+      "pos": "adj",
+      "en": "whole; complete",
+      "fr": "entier; entière",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "elar",
+      "pos": "adj",
+      "en": "true",
+      "fr": "vrai; vraie",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "viré",
+      "pos": "adj",
+      "en": "living; alive",
+      "fr": "vivant; vivante",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tharé",
+      "pos": "adj",
+      "en": "structured",
+      "fr": "structuré; structurée",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kela",
+      "pos": "adj",
+      "en": "open",
+      "fr": "ouvert; ouverte",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thuma",
+      "pos": "adj",
+      "en": "closed",
+      "fr": "fermé; fermée",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "valé",
+      "pos": "adj",
+      "en": "beautiful",
+      "fr": "beau; belle",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "aral",
+      "pos": "adj",
+      "en": "safe",
+      "fr": "sûr; sûre",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nashé",
+      "pos": "adj",
+      "en": "dangerous",
+      "fr": "dangereux; dangereuse",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "paré",
+      "pos": "adj",
+      "en": "gentle",
+      "fr": "doux; douce",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "verá",
+      "pos": "adj",
+      "en": "brave",
+      "fr": "courageux; courageuse",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "umel",
+      "pos": "adj",
+      "en": "deep",
+      "fr": "profond; profonde",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ilané",
+      "pos": "adj",
+      "en": "luminous",
+      "fr": "lumineux; lumineuse",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "eshé",
+      "pos": "adj",
+      "en": "clear; distinct",
+      "fr": "clair; claire",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "ramé",
+      "pos": "adj",
+      "en": "distant",
+      "fr": "lointain; lointaine",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "miré",
+      "pos": "adj",
+      "en": "near",
+      "fr": "proche",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "laré",
+      "pos": "adj",
+      "en": "slow",
+      "fr": "lent; lente",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "thare",
+      "pos": "adj",
+      "en": "fast",
+      "fr": "rapide",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sola",
+      "pos": "adj",
+      "en": "solar",
+      "fr": "solaire",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "geora",
+      "pos": "adj",
+      "en": "geothermal",
+      "fr": "géothermique",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "rava",
+      "pos": "adj",
+      "en": "connected",
+      "fr": "relié; reliée",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "navé",
+      "pos": "adj",
+      "en": "empty",
+      "fr": "vide",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "koral",
+      "pos": "adj",
+      "en": "full",
+      "fr": "plein; pleine",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "sené",
+      "pos": "adj",
+      "en": "honest",
+      "fr": "honnête",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "oré",
+      "pos": "adj",
+      "en": "steady",
+      "fr": "stable",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "merá",
+      "pos": "adj",
+      "en": "kind",
+      "fr": "bienveillant; bienveillante",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shavé",
+      "pos": "adj",
+      "en": "healing; restorative",
+      "fr": "guérisseur; réparateur",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "kiril",
+      "pos": "adj",
+      "en": "green",
+      "fr": "vert; verte",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "nivá",
+      "pos": "adj",
+      "en": "blue",
+      "fr": "bleu; bleue",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "aumar",
+      "pos": "adj",
+      "en": "golden",
+      "fr": "doré; dorée",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "tiral",
+      "pos": "adj",
+      "en": "pink",
+      "fr": "rose",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "arom",
+      "pos": "adj",
+      "en": "black",
+      "fr": "noir; noire",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "elun",
+      "pos": "adj",
+      "en": "white",
+      "fr": "blanc; blanche",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "volarë",
+      "pos": "adj",
+      "en": "violet",
+      "fr": "violet; violette",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "zurá",
+      "pos": "adj",
+      "en": "red",
+      "fr": "rouge",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "selora",
+      "pos": "adj",
+      "en": "gentle in tone",
+      "fr": "doux dans la voix",
+      "category": "09 · Qualities (post-nominal adjectives)",
+      "origin": "new_standard"
+    },
+    {
+      "form": "shorai",
+      "pos": "noun",
+      "en": "unhidden truth; revealed reality",
+      "fr": "vérité dévoilée",
+      "category": "10 · Optional cultural words",
+      "origin": "legacy_root_adopted_2026"
+    },
+    {
+      "form": "molai",
+      "pos": "noun",
+      "en": "shadow; shaded place (legacy poetic)",
+      "fr": "ombre; endroit ombragé",
+      "category": "10 · Optional cultural words",
+      "origin": "legacy_root_adopted_2026"
+    },
+    {
+      "form": "zol’karu",
+      "pos": "formula",
+      "en": "I was unmade (historic phrase, indivisible)",
+      "fr": "j’ai été défait (formule historique)",
+      "category": "10 · Optional cultural words",
+      "origin": "legacy_root_adopted_2026"
+    },
+    {
+      "form": "Tókarûn",
+      "pos": "noun",
+      "en": "token; keepsake (historical coinage)",
+      "fr": "jeton; souvenir symbolique",
+      "category": "10 · Optional cultural words",
+      "origin": "legacy_root_adopted_2026"
+    }
+  ],
+  "examples": [
+    {
+      "vlt": "Mi sova.",
+      "en": "I sing.",
+      "fr": "Je chante."
+    },
+    {
+      "vlt": "Ti lith ei solara.",
+      "en": "You listen to the song.",
+      "fr": "Tu écoutes la chanson."
+    },
+    {
+      "vlt": "Mina vael un arveth.",
+      "en": "We (including you) make a home.",
+      "fr": "Nous créons un foyer (toi inclus)."
+    },
+    {
+      "vlt": "Mi ya keth un talash.",
+      "en": "I forged a tool.",
+      "fr": "J’ai forgé un outil."
+    },
+    {
+      "vlt": "Sa so kora un korava.",
+      "en": "They will build a dome.",
+      "fr": "Cette personne construira un dôme."
+    },
+    {
+      "vlt": "Mira ne ya delor ei vorthin.",
+      "en": "We (excluding you) did not close the door.",
+      "fr": "Nous n’avons pas fermé la porte (toi exclu)."
+    },
+    {
+      "vlt": "Ti nu selir ei selovar ke?",
+      "en": "Are you reading the book?",
+      "fr": "Es-tu en train de lire le livre ?"
+    },
+    {
+      "vlt": "E lith ei shaveth di mi.",
+      "en": "Listen to my voice.",
+      "fr": "Écoute ma voix."
+    },
+    {
+      "vlt": "Sha e thar selé.",
+      "en": "Please speak quietly.",
+      "fr": "Parle doucement, s’il te plaît."
+    },
+    {
+      "vlt": "Mi lora ei eshala len.",
+      "en": "I see the stars.",
+      "fr": "Je vois les étoiles."
+    },
+    {
+      "vlt": "Ei arveth di mi es aral.",
+      "en": "My home is safe.",
+      "fr": "Mon foyer est sûr."
+    },
+    {
+      "vlt": "Mi vael ei solara ra Ralim’e na seran.",
+      "en": "I create the song in the spirit of harmonization, in order to share.",
+      "fr": "Je crée la chanson dans un esprit d’harmonie, afin de partager."
+    },
+    {
+      "vlt": "Mi sova ra El’shava ha na reth.",
+      "en": "I sing with the memory of wholeness, to remember.",
+      "fr": "Je chante avec la mémoire de l’intégrité, pour me souvenir."
+    },
+    {
+      "vlt": "Ila ei saram avar, mina salor va ei vareth.",
+      "en": "If the storm arrives, we stay in the refuge.",
+      "fr": "Si la tempête arrive, nous restons dans le refuge."
+    },
+    {
+      "vlt": "Mina seran vethra ar thúlen.",
+      "en": "We share water and food.",
+      "fr": "Nous partageons l’eau et la nourriture."
+    },
+    {
+      "vlt": "Mi ne es neli maval.",
+      "en": "I am not this maker.",
+      "fr": "Je ne suis pas cet artisan."
+    },
+    {
+      "vlt": "Haren ti vael ke?",
+      "en": "What are you making?",
+      "fr": "Que crées-tu ?"
+    },
+    {
+      "vlt": "Havor ei olara es ke?",
+      "en": "Where is the nexus?",
+      "fr": "Où est le carrefour central ?"
+    },
+    {
+      "vlt": "Mina so ravir ei korava len tor tavren.",
+      "en": "We will connect the domes by rail.",
+      "fr": "Nous relierons les dômes par rail."
+    },
+    {
+      "vlt": "Mi ya se makel ei navor.",
+      "en": "I have repaired the machine.",
+      "fr": "J’ai réparé la machine."
+    },
+    {
+      "vlt": "Mi nu varin, ath ti nu sova.",
+      "en": "I am working, but you are singing.",
+      "fr": "Je travaille, mais tu chantes."
+    },
+    {
+      "vlt": "Mina kora ei vareth ra Tulan’var ha na neral.",
+      "en": "We build the refuge with radiant resolve, in order to protect.",
+      "fr": "Nous bâtissons le refuge avec une volonté rayonnante afin de protéger."
+    },
+    {
+      "vlt": "Ti sova, mi lith.",
+      "en": "You sing; I listen.",
+      "fr": "Tu chantes ; j’écoute."
+    }
+  ]
+}
