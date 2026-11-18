@@ -1,0 +1,941 @@
+VIRELANTHAR
+THE LIVING TONGUE OF LIGHT REMEMBERED
+FINAL SPEAKING, RESONANCE & MEANING TOOLKIT
+===============================================================
+Edition: Speaking Toolkit 1.1 — additive completion of Standard 1.0.0
+Prepared: 18 November 2026
+Creative origin / final authority: Keth'ar Molishé Nuvah'el
+For use with: https://github.com/BEKW-code/Virelanthar
+Format: ONE plain-text UTF-8 document. Copy directly into a GitHub file.
+
+THIS DOCUMENT HAS ONE PURPOSE:
+Make the existing language capable of ordinary speech, subtle feeling,
+rigorous thought, invention, humor, disagreement, poetry, and song—without
+creating 77,777 arbitrary roots or making the language a rigid word puzzle.
+
+NOT A SECOND DICTIONARY. NOT A REPLACEMENT FOR THE DEFINITIVE STANDARD.
+The existing Lexicon.json (346 standardized entries) remains the word
+authority. Earlier proposed entries remain proposed until individually
+accepted. This toolkit teaches how meanings COMBINE, not how to pad a count.
+
+EDITORIAL STATUS AND LEGEND
+  [BASE]   The existing Virelanthar Definitive Standard 1.0.0.
+  [NEW]    Precisely defined, compatible speaking-toolkit extension.
+  [STYLE]  Choice of delivery; it changes emphasis, not dictionary meaning.
+  [COIN]   A transparent, proposed compound; not automatically a root.
+  [GAP]    Meaning that cannot honestly be asserted as an established word.
+
+When this text says 'valid', it means valid under the documented base rules
+or under the explicitly stated [NEW] extension. It does not claim these
+extensions were present in the ancient/history drafts. Ratification remains
+with the creator. No Vaeltharyn words, grammar, or authorship are absorbed.
+
+THE MOST IMPORTANT RULE
+A listener must be able to recover WHAT was said, WHO did what, WHEN it
+happened, HOW the speaker frames it, and WHY the speaker intends it—if
+those things are expressed. Music may intensify meaning; sound cannot
+secretly replace the meaning of a word. There can be MANY correct ways
+to express a thought, and those ways need not have identical emotional
+weight. Freedom of expression is not freedom to falsify a translation.
+
+
+PART I — THE SEVEN INTERLOCKING TOOLSETS
+===============================================================
+
+1. ROOTS: Stable, retrievable lexical meanings.
+   'aveth' is joy; 'vashor' is hope; 'moren' is darkness, NOT silently grief.
+   A root does not change just because it makes a prettier rhyme.
+
+2. GRAMMAR: Who acts, what changes, who receives, and when.
+   Core clauses are short and completely usable without poetry.
+
+3. DERIVATION: A documented affix changes the meaning of an established
+   verb/adjective root. New derivations stay transparent and reversible.
+
+4. COMPOSITION: Known nouns combine into a meaningful concept. A phrase
+   can describe a temporary association; a lexical compound names a
+   recognized KIND of thing. The two are related, not identical.
+
+5. FEELING & RELATIONSHIP: Emotions can be named, qualified, explained,
+   contrasted, and experienced together without inventing synonyms.
+
+6. RESONANCE & INTENT: What ethos a statement carries, how it is echoed,
+   and what end the action seeks. These layers are optional, not compulsory.
+
+7. LIVING SPEECH: Actual conversations. People may hesitate, disagree,
+   joke, reformulate, ask permission, change their minds, and sing.
+
+This seven-part organization is a toolkit, not seven lists of words.
+Every layer is usable with the other six; no fixed minimum sentence length.
+
+
+PART II — CANON THAT MUST NOT DRIFT [BASE]
+===============================================================
+
+A. SOUND AND SPELLING
+  Canonical ordinary vowels: a / e / i / o / u, with stable approximate
+  sounds ah / eh / ee / oh / oo. Digraphs: sh, th, kh, zh. A tapped or
+  lightly trilled r is acceptable. Acute accents mark stress, never tense.
+  Otherwise the default is penultimate syllable stress. Some inherited
+  words have established pronunciation overrides (vethra, solin, kuran).
+  The apostrophe in a proper or sacred name is an internal poetic seam,
+  NOT permission to split the name into fake roots.
+  Virelanthar's established name cue: vee-REH-lahn-thar.
+
+B. PRONOUNS AND MEMBERSHIP
+  mi      I
+  ti      you, one addressee
+  sa      one person/they, no required gender
+  si      it, nonperson referent
+  mina    we, INCLUDING the listener
+  mira    we, EXCLUDING the listener
+  tira    you all
+  sara    they, plural
+
+  'mina' and 'mira' are NOT interchangeable in a duet, negotiation,
+  promise, group decision or collaborative design.
+
+C. THE RELIABLE CORE CLAUSE
+  SUBJECT + [ne] + [ya|so] + [nu|se] + VERB + [COMPLEMENT]
+              + [ra RESONANCE [ECHO]] + [na PURPOSE]
+
+  Mi sova.                            I sing.
+  Mi ya sova.                         I sang.
+  Mi so sova.                         I will sing.
+  Mi nu sova.                         I am singing.
+  Mi ne so dovar.                     I will not leave.
+  Mi kora un vareth.                  I build a refuge.
+
+  no tense particle = simple/non-past by context
+  ya = past; so = future
+  nu = action unfolding; se = completed action
+  ne precedes the finite tense/aspect/verb group
+  never combine nu and se on the SAME finite verb
+  verbs do not conjugate for person, gender or number
+
+  Caution: some legacy English examples gloss 'ya se' as 'have done',
+  elsewhere as 'had done'. The safe literal reading is 'completed in a
+  past frame'. When exact English perfect tense matters, add context;
+  do not silently force one English auxiliary.
+
+D. NOUN PHRASES
+  ei = the; un = a/an; unmarked general nouns are permitted.
+  len = plural, immediately after the noun, BEFORE adjectives.
+  di = of / possession.
+  adjectives follow the noun phrase and do not inflect.
+
+  ei korava len aral                 the safe domes
+  ei arveth di mi                    my home
+  un arveth valé                     a beautiful home
+  ei solara di ti                    your song
+  dorai korava                       two domes (not 'dorai korava len')
+
+E. QUESTIONS, COMMANDS, CONDITIONS, JOINING
+  Ti sova ke?                        Do you sing?
+  Haren ti vael ke?                  What do you create?
+  Havor ei olara es ke?              Where is the nexus?
+  E sova.                            Sing!
+  Sha e sova.                        Please sing.
+  Ila ei saram avar, mina salor va ei vareth.
+                                     If the storm arrives, we stay
+                                     in the refuge.
+  ar = and; ath = but; ek = yet; or = or; vel = because;
+  esh = therefore; ila = if; ena = then (optional after if).
+
+F. PLACE, MEANS AND RELATION
+  va at/in; sur on; nel beneath; en toward; dor from;
+  lo with a person; tor by means of a tool; av without;
+  isha before; orai after; zen like; li than; di of.
+
+G. FOUR PILLARS AND TWO FIXED CLOSERS
+  Voh’resh                Catalyst of transformation
+  Ralim’e                 Breath of harmonization
+  El’shava                Memory of wholeness
+  Tulan’var               Heart of radiant will
+  Ek’vesh’arun.           And yet I shine.
+  Esh’valun leth’aré.     And the breath remembers.
+
+  These are fixed WHOLE forms. They are neither casual prefixes nor a
+  reservoir of syllables from which to invent unrelated words.
+
+H. NUMBERS ARE SETTLED, NOT OPTIONAL ALTERNATE CIPHERS
+  nirae 0; velûn 1; dorai 2; savael 3; khalor 4; thumé 5;
+  zireth 6; valem 7; ravos 8; naurel 9; elvai 10; elvar 100.
+  elvai-en-dorai = 12; dorai-elvai-en-velûn = 21.
+  velûn ka = first; dorai ka = second.
+  Keep Arabic numbers and named SI units in technical writing until
+  the units are defined; never fabricate a conversion or safety rating.
+
+
+PART III — SEVEN WAYS TO EXPRESS A THOUGHT WITHOUT A STRAITJACKET
+===============================================================
+
+These are not seven competing grammars. They are seven LICENSED ways to
+use the same semantic building blocks. The fact remains distinguishable
+from the speaker's emotion, purpose and performance.
+
+A. PLAIN [BASE]
+   Mi makel ei navor.
+   I repair the machine.
+   Appropriate for instruction, translation and ordinary reporting.
+
+B. EXPLICIT TIME OR PROGRESS [BASE]
+   Mi nu makel ei navor.
+   I am repairing the machine.
+   Changes whether the work is ongoing; not merely a flourish.
+
+C. CONNECTED THOUGHT [BASE]
+   Mi makel ei navor, vel ei navor ya voran.
+   I repair the machine because it failed.
+   Adds reason using a second fully intelligible clause.
+
+D. ETHICAL OR EMOTIONAL FRAMING [BASE]
+   Mi makel ei navor ra Ralim’e.
+   I repair the machine in a spirit of harmonization.
+   The repair is still a repair; the ethos does not claim supernatural
+   mechanical effects.
+
+E. FRAMING WITH INTENT [BASE]
+   Mi makel ei navor ra Ralim’e na neral ei koran.
+   I repair the machine in that spirit, to protect the community.
+   Resonance (ra) is WHY IT FEELS/IS APPROACHED THIS WAY;
+   intent (na) is WHAT ACTION IS FOR. Do not confuse them.
+
+F. HIGH-SPEECH CALL AND ECHO [BASE]
+   Mi makel ei navor ra Ralim’e hi na neral ei koran.
+   Same propositional content as E, with a matched resonance echo.
+   A choir may sing 'hi' as an answer to the lead's Ralim’e.
+
+G. OPENING FRAME / AFTERTHOUGHT [NEW, STRUCTURAL NOT LEXICAL]
+   Ra Ralim’e hi: mi makel ei navor na neral ei koran.
+   OR: Mi makel ei navor. Ra Ralim’e hi.
+   The resonant frame moves to the beginning or becomes an afterthought.
+   The colon and clear pause delimit scope. It attaches to the adjacent
+   complete proposition, not to a random word. Without that clarity,
+   return to the canonical order in C-F.
+
+   Likewise, the purpose may be introduced in a separate first breath:
+   Na neral ei koran: mi makel ei navor.
+   To protect the community: I repair the machine.
+   Agent of na is the main-clause subject unless explicitly given.
+   Distinguish 'na ti lith' = so that YOU listen from 'na lith' =
+   in order for the main actor to listen.
+
+OTHER NATURAL VARIANTS THAT NEED NO NEW WORDS
+
+- Add or omit determiners when reference is clear, never when doing so
+  changes which particular object was meant.
+- Replace a general verb with a more exact existing verb: vael (create),
+  kora (build), keth (forge), makel (repair), shavir (restore).
+  They are RELATED, not synonyms. Selecting the right action matters.
+- Use contrast: 'Mi doren ei solara, ath mi maren ei talash.'
+  I want the song, but I need the tool.
+- Use consecutive full clauses for dramatic stress:
+  'Mi ya voran. Mi ya kaveth. Mi so makel ei navor.'
+  I failed. I tested. I will repair the machine.
+- Use refrain and repetition for resolve. Repeating a sentence is not
+  another dictionary meaning, and repetition never changes its tense.
+- Use a topic with an audible pause AND an explicit full clause:
+  'Ei navor — mi makel ei navor.'
+  The machine—I'm repairing the machine.
+  The repeated noun prevents the common 'object inversion' misparse.
+- Use clear poetic ellipsis only where shared context recovers the
+  omitted subject/object. For teaching, legal precision and subtitles,
+  always restore the full form. Ellipsis is not a new free word order.
+
+FLEXIBILITY RULE
+Variation is welcome when it changes focus, pacing, register, intimacy,
+or rhetorical arrangement without losing actor, negation, temporal
+reference, cause or intention. No form is 'more sacred' merely for being
+longer or harder to pronounce.
+
+
+PART IV — FEELING, NUANCE AND TWO PEOPLE IN ONE CONVERSATION
+===============================================================
+
+A real feeling is not necessarily one invented standalone noun. It can
+be a root, a modified root, a cause, a contrast, an action, a memory,
+or something we cannot yet name exactly. Multiple sentences can reveal
+more than a single vague label.
+
+AVAILABLE CANONICAL FEELING / RELATION ROOTS [BASE]
+  aveth    joy
+  davar    courage
+  vashor   hope
+  kelira   wonder / amazement
+  talvar   will / resolve
+  sarael   kindness
+  nolar    care / attentive support
+  rhalin   memory
+  silor    silence
+  moren    darkness (literal or clearly framed metaphor)
+  leth     shared thought / harmonized minds
+  vire     living resonance
+  draval   soul / essence of a person
+  ael      essence / presence
+  neshar   safety / security
+  norel    elder
+  lumeth   friend
+  velor    truth
+  shorai   unhidden / revealed truth
+
+AVAILABLE CANONICAL FEELING / RELATION VERBS [BASE]
+  thir     feel
+  loren    love / care deeply for
+  sereth   trust
+  volar    forgive
+  reth     remember
+  ralir    laugh
+  avira    smile
+  lith     listen
+  molir    help
+  seran    share
+  shavet   be able to
+  doren    want
+  maren    need
+  elora    choose
+  maveth   think
+  senal    believe
+  savel    know a fact
+  kenar    understand
+
+DISTINCT EXPRESSIONS USING THE SAME ROOTS
+  Mi thir aveth.
+      I feel joy.
+  Mi thir aveth umel.
+      I feel deep joy. [umel modifies the noun aveth.]
+  Mi thir aveth ar kelira.
+      I feel joy and wonder.
+  Mi thir vashor oré.
+      I feel steady hope.
+  Mi thir kelira, vel mi ne savel.
+      I feel wonder because I do not know.
+  Mi thir aveth, ath mi ne ralir.
+      I feel joy, but I am not laughing.
+  Mi loren ti, ath mi ne sereth ti.
+      I care deeply for you, but I do not trust you.
+      Love and trust are not the same claim.
+  Mi sereth ti, ek mi so kaveth ei navor.
+      I trust you, yet I will test the machine.
+      Trust does not erase verification.
+  Mi ne ya thir neshar; teva mi thir neshar.
+      I did not feel safe; now I feel safe.
+      Relief is implied by the transition, not secretly defined as neshar.
+  Mi thir moren, vel mi reth ei lumeth di mi.
+      I feel darkness because I remember my friend.
+      An evocative description, NOT a guaranteed literal word for grief.
+  Mi ne savel, ath mi so nethir.
+      I do not know, but I will explore.
+      Uncertainty without shame or fake certainty.
+  Mi elora salor lo ti.
+      I choose to stay with you. [See complement rule in Part VII.]
+
+IMPORTANT FEELING DISTINCTIONS
+  'moren' = darkness, NOT automatically grief, depression or shame.
+  'neshar' = safety, NOT automatically permission or consent.
+  'sereth' = trust, NOT necessarily proof of correctness.
+  'loren' = love/deep care, NOT a claim of possession.
+  'leth' = shared thought, NOT compulsory agreement.
+  'vire' = living resonance, NOT a measured frequency in hertz.
+  'talvar' = resolve, NOT certainty of success.
+
+The earlier 677 proposed words contain candidate expressions for specific
+human experiences (such as embarrassment, apology, consent, boundaries,
+blushing, laughter and playful disagreement). They may be adopted ONE BY
+ONE after checking their forms, uses and meanings. They do NOT become
+canonical simply because this toolkit mentions them.
+
+A LANGUAGE MUST ALLOW SOMEONE TO SAY:
+  I feel two things at once.
+  I trust you and want to check the result.
+  I love you and still have a boundary.
+  I don't know, yet I want to learn.
+  You may disagree with me.
+  You were right; I was mistaken.
+
+The first four can already be assembled from established vocabulary or
+the explicit complement rule below. For permission, a formal boundary,
+'you were right', and exact shame/grief senses, use approved candidate
+terms once defined, or fully explicit explanatory clauses—DO NOT
+relabel existing words dishonestly.
+
+
+PART V — SPEAKING WITH RESONANCE: EXACTLY WHAT CHANGES
+===============================================================
+
+'RESONANCE' IN THIS LANGUAGE IS TWO CONNECTED THINGS:
+  1. A meaningful semantic frame ('ra' + an identifiable noun/Pillar).
+  2. An audible performance relation (stress, vowel echo, response,
+     timing, silence, breath, timbral contrast, intensity).
+
+The two are related but not identical. Neither permits an arbitrary
+translation. A spoken promise plus a resonant frame remains a promise;
+it does not magically make the promised event already completed.
+
+A. 'ra' — THE RESONANCE FRAME [BASE]
+  'Mi sova ra Ralim’e.'
+  I sing in a spirit of harmonization.
+  'Mina kora ei vareth ra Tulan’var.'
+  We build the refuge in a spirit of radiant will.
+  'Mi reth ei solara ra El’shava.'
+  I remember the song under the memory-of-wholeness frame.
+
+The object after 'ra' can be a Pillar or a recognized noun phrase;
+it describes the attitude/ethos/experiential frame surrounding the
+clause. It is not an extra direct object, a supernatural force, or a
+substitute for the verb.
+
+B. 'na' — INTENTION, NOT EMOTION [BASE]
+  'Mi sova na seran ei solara.'
+  I sing in order to share the song.
+  'Mi sova na ti lith.'
+  I sing so that YOU listen.
+
+A singer who says 'ra Ralim’e na seran' supplies two different things:
+frame (harmonization) and purpose (sharing). Either can be absent.
+
+C. ECHO AGREEMENT [BASE]
+  stressed vowel a -> ha
+  stressed vowel e -> he
+  stressed vowel i -> hi
+  stressed vowel o -> ho
+  stressed vowel u -> hu
+
+  ra Voh’resh he      stressed e
+  ra Ralim’e hi       stressed i
+  ra El’shava ha      stressed a
+  ra Tulan’var ha     stressed a
+  ra solin ho         stressed o
+
+  The echo comes immediately after the completed 'ra' complement.
+  In a full sentence with intent: VERB + OBJECT + ra X ECHO + na PURPOSE.
+  One echo particle, not an arbitrary vowel chain. Names with ritual
+  stress exceptions use their documented exception, not a guessed echo.
+  Echo particles are OPTIONAL. They do not alter noun plurality, tense,
+  truth, causation, real electrical resonant frequency, or physics.
+
+D. FOUR PERFORMANCE LEVELS [STYLE]
+  LEVEL 0 / UNMARKED: Plain speech, no audible resonance flourish.
+  LEVEL 1 / COLORED: A clear ra phrase with natural stress and breath.
+  LEVEL 2 / ECHOED: An optional matching ha/he/hi/ho/hu reply.
+  LEVEL 3 / CHORAL: Lead presents clause; another voice answers echo,
+                    after which either can continue the intent.
+
+  These are performance choices, not four new conjugation paradigms.
+  Do NOT claim that louder shouting is automatically higher resonance.
+
+E. THE SEVEN MUSICAL LEVERS [STYLE, NOT DICTIONARY ENTRIES]
+  STRESS      Place emphasis where the word's stress actually belongs.
+  DURATION    Sustain an existing vowel without spelling a new word.
+  BREATH      Pause at clause/idea boundaries; don't break a Pillar name.
+  PITCH       Rise, fall, or hold without changing semantic polarity.
+  TIMBRE      Warm, stern, amused, trembling, intimate; context matters.
+  RESPONSE    Let another speaker/choir own the echo.
+  SILENCE     A deliberate rest can carry weight; silence is not a
+              secret lexical negation.
+
+F. REALITY AND RESPONSIBILITY
+  Language guides attention, decisions, cooperation, design, teaching and
+  action. It can change what people build. 'Resonance' here denotes a
+  linguistic, emotional and musical relationship, not an experimentally
+  proven claim that speaking a phrase alters physical constants.
+
+
+PART VI — BUILD NEW CONCEPTS FROM ESTABLISHED MEANINGS
+===============================================================
+
+There are THREE DISTINCT TOOLS. Choose the smallest that fits.
+
+1. FREE PHRASE [BASE]
+  'ei solara di mi' = my song.
+  'ei aveth di mi' = my joy.
+  'ei solara valé' = the beautiful song.
+  Uses normal grammar; makes no new dictionary word.
+
+2. DOCUMENTED DERIVATION [BASE]
+  One of the EXISTING transformations on a compatible standard root:
+  a-VERB    beginning of the action          a-kora    begin building
+  ta-VERB   transformation/remaking          ta-kora   rebuild
+  vi-VERB   inward/reflective action         vi-sova   sing inwardly
+  VERB-ar   action directed outward          sova-ar   sing outward
+  VERB-eth  action in remembrance            kora-eth  build in memory
+  ADJ-el    sustained quality                aral-el  enduringly safe
+  ADJ-ai    emerging quality                 valé-ai  becoming beautiful
+
+  FORM: PREFIX-ROOT-SUFFIX; at most one prefix and one suffix.
+  These affixes apply to compatible NEW-STANDARD roots per the existing
+  rule. They cannot be attached to the sacred Pillars or chopped-out
+  syllables of names. Hyphens are mandatory. Do not derive a word just
+  because the combination is mechanically possible.
+
+3. TRANSPARENT NOUN-NOUN CONCEPT [NEW]
+  THIS IS THE MAIN COMPOSITION COMPLETION.
+
+  FORM: MODIFIER-HEAD (both established nouns, joined by one hyphen).
+  READ: a KIND OF HEAD characterized by a meaningful relation to the
+        modifier. The HEAD is the rightmost noun.
+  EXAMPLE: aveth-solara = a song specifically characterized by joy.
+  NOT: every possible adjective attached to every dictionary root.
+
+  The first noun identifies a theme, function, origin, material, medium,
+  or culturally agreed organizing principle. Which relation is intended
+  must be stated the first time a compound is adopted as a special term.
+  Context may permit transparent ad hoc compounds without dictionary
+  registration, but established cultural terms need precise definitions.
+
+  MEANINGFUL [COIN] EXAMPLES — CONCEPTS, NOT AUTOMATIC CANON:
+
+  aveth-solara    joy-song: song whose defining theme is joy
+  solara-aveth    song-joy: joy arising specifically from a song
+  rhalin-solara   memory-song: song made to preserve a memory
+  nolar-koran     care-community: community organized around care
+  thalen-nolar    earth-care: practice of caring for land/soil
+  kera-shalen     word-balance: balance or proportion of word choices
+  vire-solara     resonance-song: song organized around living resonance
+  rhalin-soral    memory-story: story constructed from remembered life
+
+  REVERSE ORDER MATTERS:
+  aveth-solara is a KIND OF SONG;
+  solara-aveth is a KIND OF JOY.
+  Those meanings are related but are not interchangeable.
+
+  NOUN-NOUN FORMATION RULES
+  - Both members MUST be genuine listed nouns (not a guessed suffix).
+  - Each member keeps its own spelling and recognizable sense.
+  - One hyphen marks one semantic bond; do not silently erase letters.
+  - In a larger phrase, articles and plural work on the entire compound:
+        ei aveth-solara       the joy-song
+        ei aveth-solara len   the joy-songs
+        dorai aveth-solara    two joy-songs
+  - An ordinary adjective follows the WHOLE compound:
+        un aveth-solara valé  a beautiful joy-song
+  - Possession is still separate:
+        ei aveth-solara di mi    my joy-song
+  - A two-noun compound does NOT mean 'X possesses Y'.
+    'ei solara di mi' = my song; no reason to say 'mi-solara'.
+  - Do not chain three or more roots in a single unanalyzed word.
+    Use nested phrases, and only lexicalize a longer term after review.
+  - Fixed names, Pillars, formulae and unlisted roots are off limits.
+  - A noun + verb is not automatically a compound: 'shavir ei thalen'
+    is 'restore the earth', not a forced noun with an invented gloss.
+
+  EDITORIAL TEST BEFORE ADDING ONE COMPOUND TO THE DICTIONARY
+  [ ] Is the head truly a noun, and the modifier truly a noun?
+  [ ] Can a listener reconstruct the broad meaning?
+  [ ] Is the relationship precise enough to define in one sentence?
+  [ ] Does an existing simpler word already express exactly this?
+  [ ] Is it distinct from the reverse-order compound?
+  [ ] Is it pronounceable and useful in speech, not just printable?
+  [ ] Has it appeared in at least one natural full sentence/dialogue?
+  [ ] Is its literal English and French meaning recorded honestly?
+  [ ] Is it genuinely worth registering as a reusable cultural term?
+
+  EXAMPLE OF REJECTED PADDING
+  'laveth' already means a water circuit / pipe loop.
+  A new 'vethra-laveth' meaning only 'water pipe loop' probably adds
+  nothing. Unless it gains a more specific agreed usage, reject it.
+
+THIS IS HOW A SMALL ROOT INVENTORY SUPPORTS OPEN-ENDED EXPRESSION.
+Not every grammatically possible sequence becomes a new dictionary root.
+
+
+PART VII — ADD THE MISSING CONNECTIONS, NOT THOUSANDS OF ROOTS
+===============================================================
+
+The base has doren (want), maren (need), shavet (can), elora (choose),
+belief, knowing, and conditions. A speaker needs to express their
+relationship to an entire ACTION or PROPOSITION, not only a noun.
+The following extensions supply that function without creating an
+unlimited list of invented emotional vocabulary.
+
+A. MODAL / DECISION COMPLEMENT [NEW]
+
+  SUBJECT + [ne] [ya|so] + [nu|se] + MODAL + [ne] VERB + OBJECT
+
+  Modal/decision verbs permitted here:
+    doren    want to
+    maren    need to
+    shavet   be able to
+    elora    choose to
+
+  The second bare verb is the action desired/needed/possible/chosen.
+  Its implied subject is the subject of the modal. It does not conjugate
+  and does not carry its own tense particle.
+
+  Mi doren makel ei navor.
+      I want to repair the machine.
+  Mi maren makel ei navor.
+      I need to repair the machine.
+  Mi shavet makel ei navor.
+      I can repair the machine (ability, NOT legal authorization).
+  Mi elora makel ei navor.
+      I choose to repair the machine.
+  Mi ne doren dovar.
+      I do not want to leave.
+  Mi doren ne dovar.
+      I want NOT to leave. (Negation scopes over the wanted action.)
+  Mi so shavet makel ei navor.
+      I will be able to repair the machine.
+
+  DO NOT confuse 'Mi ne doren dovar' with 'Mi doren ne dovar'.
+  The first denies a desire; the second positively desires staying.
+  'shavet' never automatically means permission or consent.
+
+  For a DIFFERENT subject in a desired proposition, use a colon-framed
+  complete clause rather than pretending the modal shares subjects:
+  'Mi doren: ti so salor.'
+   I want this: you will stay / I want you to stay.
+  Context must distinguish a wish from a confident prediction.
+
+B. QUOTED / BELIEVED / KNOWN PROPOSITIONS [NEW PRESENTATION RULE]
+
+  A reporting or thinking verb may introduce a WHOLE proposition with a
+  colon and a breath break. No extra 'that' word needs to be invented.
+
+  Mi thar: "Ei navor ya voran."
+      I say: "The machine failed."
+  Sa thar: "Mina so kora un eravi."
+      They say: "We (including the listener) will build a bridge."
+  Mi senal: ei navor so thovar.
+      I believe the machine will succeed.
+  Mi savel: ei navor ya voran.
+      I know the machine failed. (Speaker asserts knowledge.)
+
+  IMPORTANT: 'I believe' is NOT 'I know'; neither automatically proves
+  the truth of the embedded statement. Exact quotations preserve the
+  original speaker's pronouns. Reported speech can be reformulated as
+  ordinary clauses with clear attribution and no fake certainty.
+
+C. TOPIC + RESUMPTION [NEW DISCOURSE RULE]
+
+  A noun phrase can be said as a topic before a complete sentence.
+  Mark it with a colon, dash or audible pause; then repeat the referent
+  as a full noun or clear pronoun. This is not unrestricted inversion.
+
+  Ei navor — mi makel ei navor.
+      The machine—I'm repairing it.
+  Ei korava len — mina so ravir ei korava len.
+      The domes—we will connect them.
+
+  This allows emotional emphasis while maintaining an unambiguous
+  grammatical object and actor. It is compatible with formal subtitles.
+
+D. THREE SMALL OPTIONAL GRAMMAR PARTICLES [NEW]
+
+  They solve real gaps. They are not renamed copies of existing nouns.
+  Do not claim they were part of the earlier 346-entry canon.
+
+  vara:     POSSIBLE / MAYBE — epistemic frame over one full clause.
+  turi:     IMAGINED / HYPOTHETICAL — frame for a scenario or
+            condition; NOT automatically a statement of known falsity.
+  rila      WHO/WHICH/THAT — relative-clause introducer with a REQUIRED
+            explicit resumptive referent and paired pauses/dashes.
+
+  These forms are NEW proposals supplied in the present completion.
+  Each was checked for exact spelling against the 346 canonical and
+  677 prior candidate entries at preparation time. They do NOT need
+  inflection; each has exactly one grammatical job.
+
+  POSSIBLE:
+    Vara: ei navor so thovar.
+    Perhaps the machine will succeed.
+    Scope is the whole clause. It is not a guaranteed prediction.
+
+  IMAGINED / HYPOTHETICAL:
+    Turi: ila mi dalen un talash, ena mi makel ei navor.
+    Suppose I had a tool: then I would repair the machine.
+    The 'turi' frame marks imagination or supposition, not past tense.
+    A factual 'ila' condition WITHOUT 'turi' remains an open condition.
+
+  RELATIVE:
+    Ei maval — rila sa ya makel ei navor — so kora un eravi.
+    The maker who repaired the machine will build a bridge.
+
+    Mi so makel ei navor — rila si ya voran.
+    I will repair the machine that failed.
+
+  RELATIVE REQUIREMENTS:
+    'rila' attaches to the immediately identified noun phrase.
+    The nested clause is COMPLETE: 'sa' resumes a human singular,
+    'si' a nonperson object/subject, or an appropriate full noun repeats.
+    The clause has its OWN tense/aspect/negation.
+    Paired pauses/dashes (or commas) identify the beginning/end when
+    embedded before the main verb. In speech use paired brief pauses.
+    If the reference is ambiguous, use TWO CLEAR FULL SENTENCES instead.
+    Do not force a reduced relative when clarity or breath suffers.
+
+E. WHAT IS NOT YET A GRAMMATICAL CLAIM
+  The toolkit does not invent conjugations for 77 tenses, automatic
+  evidentiality, obligatory honorific ranks, noun genders, magical
+  causation, or secret emotional readings of vowel combinations.
+  A precise new term can be proposed later if a genuine communicative
+  need survives ordinary phrasing; one need, one definition, one test.
+
+
+PART VIII — LOW SPEECH, HIGH SPEECH, AND EVERYTHING BETWEEN
+===============================================================
+
+LOW SPEECH is ordinary concise grammar. It is not inferior.
+HIGH SPEECH is ordinary recoverable grammar amplified by framing,
+parallelism, breath and echo. It is not a separate secret language.
+
+SAME SCENE: A HOUSE NEEDS REPAIR
+
+LOW / DIRECT
+  Mi makel ei arveth.
+  I repair the home.
+
+LOW / RESPONSIBLE PLAN
+  Mi so talir ei arveth. Mi so makel ei arveth orai ei mereth.
+  I will measure the home. I will repair it after the measurement.
+
+EMOTIONAL
+  Mi thir vashor, vel mi shavet makel ei arveth.
+  I feel hope because I can repair the home.
+
+RELATIONAL
+  Mina so makel ei arveth.
+  We, including you, will repair the home.
+
+PURPOSEFUL
+  Mina so makel ei arveth na neral ei koran.
+  We will repair the home in order to protect the community.
+
+RESONANT
+  Mina so makel ei arveth ra Ralim’e hi na neral ei koran.
+  We will repair the home with the resonance of harmonization,
+  in order to protect the community.
+
+FRAMED / CHORAL
+  LEAD: Ra Ralim’e ...
+  CHOIR: hi!
+  LEAD: Mina so makel ei arveth na neral ei koran.
+  Same intention and actor; an audible, memorable dramatic shape.
+
+OTHER REGISTER RULES
+- Intimate speech may be shorter and softer. It is not 'less true'.
+- Technical speech should prefer literal nouns, measurements and
+  explicit uncertainty over ceremonial ambiguity.
+- A public vow should state an actual commitment; an aspiration should
+  not be disguised as a report of work already done.
+- A joke may deliberately play with expectation, but the plot/context
+  should establish the irony; do not relabel 'dresha' as 'laugh'.
+- An argument may use forceful cadence while preserving respectful
+  agency and the exact location of disagreement.
+- Performance tags ([MALE], [FEMALE], [CHORUS], [SILENCE]) belong to
+  the musical score, NOT the lexicon.
+
+
+PART IX — DIALOGUES: THE LANGUAGE MUST DO ACTUAL WORK
+===============================================================
+
+1. BASIC HUMAN CONTACT
+  A: Ti nu thar ke?
+     Are you speaking?
+  B: Vae. Mi thar, ath mi dhi lith.
+     Yes. I speak, but I also listen.
+  A: Mina so thar ar lith.
+     We (together) will speak and listen.
+
+2. CHOOSING, NOT COMMANDING
+  A: Ti doren seran ei solara ke?
+     Do you want to share the song?
+  B: Nir. Mi elora ne seran ei solara teva.
+     No. I choose not to share the song now.
+  A: Vae. Mi so darin.
+     Yes/Understood. I will wait.
+  Note: 'vae' here acknowledges the reply, not agreement to sharing.
+
+3. RESPECTFUL DIFFERENCE
+  A: Mi senal: ei keran es nal.
+     I believe the design is good.
+  B: Mi ne senal: ei keran es nal.
+     I do not believe the design is good.
+  A: Mina so kaveth ei keran.
+     We will test the design together.
+  Note: belief is distinguished from the actual test result.
+
+4. UNCERTAINTY AND EXPLORATION
+  A: Ei navor so thovar ke?
+     Will the machine succeed?
+  B: Mi ne savel. Vara: ei navor so thovar.
+     I don't know. Perhaps it will succeed.
+  A: E kaveth ei navor.
+     Test the machine.
+  B: Vae. Mi so kaveth ei navor.
+     Yes. I will test it.
+
+5. FEELING MORE THAN ONE THING
+  A: Haren ti thir ke?
+     What do you feel?
+  B: Mi thir aveth ar kelira.
+     I feel joy and wonder.
+  A: Mi lith.
+     I'm listening.
+  B: Mi doren seran ei solara.
+     I want to share the song.
+
+6. A REPAIR BECOMES SHARED WORK
+  A: Ei navor ya voran.
+     The machine failed.
+  B: Mi so talir ei saren.
+     I will measure the electrical current.
+  A: Mi so makel ei navor.
+     I will repair the machine.
+  B: Mina so kaveth ei navor orai ei talora.
+     We will test the machine after the repair.
+  A: Ek’vesh’arun.
+     And yet I shine.
+
+7. SONG IN TWO DISTINCT VOICES
+  FIRST:  Mi sova ei solara ra Ralim’e.
+          I sing the song in a spirit of harmonization.
+  SECOND: Ti sova, mi lith.
+          You sing; I listen.
+  FIRST:  Mi so seran ei solara.
+          I will share the song.
+  BOTH:   Mina so vael un solara.
+          Together we will create a song.
+
+  For a Virelanthar/Vaeltharyn duet, the second singer may answer in
+  Zoé's real Vaeltharyn, using her own grammar and exact dictionary.
+  DO NOT fake Vaeltharyn by swapping syllables or inventing meanings.
+
+
+PART X — SPEECH PRECISION: KNOW, BELIEVE, FEEL, INTEND, DO
+===============================================================
+
+Five sentences may occur about the same machine, but they are NOT
+translations of each other:
+
+  Mi senal: ei navor so thovar.
+      I BELIEVE the machine will succeed.
+
+  Vara: ei navor so thovar.
+      MAYBE the machine will succeed.
+
+  Mi thir vashor. Vara: ei navor so thovar.
+      I feel HOPE. Perhaps the machine will succeed.
+      Hope and uncertain prediction remain distinct claims.
+
+  Mi so kaveth ei navor.
+      I WILL TEST the machine. (A commitment to act.)
+
+  Ei navor ya thovar.
+      The machine SUCCEEDED. (A past factual assertion.)
+
+For technical communication:
+- Report what was measured, what was inferred, and what is still unknown.
+- Do not translate 'hope' as 'proof', 'belief' as 'knowledge', or
+  'intention' as 'completed action'.
+- In a serious instruction, explicitly name tools, materials, times,
+  objects and safety conditions. No symbolic formula replaces a test.
+- A product slogan or sacred closer does not guarantee a real-world result.
+
+
+PART XI — TRANSLATION, CAPTIONS, AND THE TWO-LANGUAGE DUET
+===============================================================
+
+VIRELANTHAR -> ENGLISH / FRENCH, IN ORDER:
+1. Recognize preserved whole Pillars, fixed closers, and proper names.
+2. Tokenize ordinary words, particles and documented hyphenated forms.
+3. Identify the speaker and the inclusive/exclusive 'we'.
+4. Parse NEGATION and its exact SCOPE (including modal complements).
+5. Parse tense/aspect of each full clause; no wild tense assumptions.
+6. Resolve nouns, adjectives, plurals, articles and possession.
+7. Resolve any noun-noun compound head on the RIGHT; if its precise
+   relation is not registered, show the compositional gloss honestly.
+8. Resolve 'ra' framing, optional echo and 'na' intent separately.
+9. Parse quotation, topic frames and the three optional new particles.
+10. Write a close literal gloss, then an idiomatic translation.
+11. Preserve humor, choice and uncertainty without injecting claims.
+12. Mark any unknown word [UNKNOWN:exact_form]; do not hallucinate.
+
+ENGLISH / FRENCH -> VIRELANTHAR, IN ORDER:
+1. Specify the actual proposition: actor, action, object, time.
+2. Decide whether 'we' includes or excludes the listener.
+3. Select the closest genuine existing words; test verb argument sense.
+4. Use free grammar phrases before coining a compound or new root.
+5. State modal/decision, belief, possibility or hypothetical status.
+6. Use ra / na ONLY where the original meaning warrants them.
+7. Check exact echo vowel if one is used.
+8. Read aloud for breath and stress; choose a natural expression mode.
+9. Produce a literal back-translation; investigate mismatches.
+10. For stage lyrics, keep role/delivery annotations outside the sentence.
+
+VIRELANTHAR IS NOT VAELTHARYN.
+They can converse, translate, disagree, rhyme, and answer each other.
+Their grammatical systems and original words remain distinct.
+The same theme need not be translated with identical imagery; a creative
+adaptation must be labeled as an adaptation rather than literal translation.
+
+
+PART XII — VALIDATION: TEN HARD TESTS FOR ANY FUTURE SENTENCE
+===============================================================
+
+[1] KAN: Is each established word spelled and defined accurately?
+[2] SOURCE: Is new material labeled, rather than disguised as ancient?
+[3] AGENT: Is it clear who acted, wanted, believed or was addressed?
+[4] SCOPE: Is the target of negation, question and possibility clear?
+[5] TIME: Is it past, future, ongoing, completed or timeless?
+[6] COMPOSITION: Does each component contribute its real meaning?
+[7] RESONANCE: Does the frame preserve the literal proposition?
+[8] ECHO: If used, does its vowel match the stressed vowel?
+[9] SPEAKABILITY: Can a human say/sing it without arbitrary syllable
+                 surgery? Can another human reconstruct the sense?
+[10] BACK-TRANSLATION: Does English/French preserve the original actor,
+                      event, nuance, consent and uncertainty?
+
+If a line fails, REWRITE THE LINE. Do not create a new word solely to
+rescue a rhyme, hit a quota, or conceal a missing definition.
+
+
+PART XIII — REFERENCE CARD: THE COMPLETE WORKFLOW IN TWELVE LINES
+===============================================================
+
+START WITH MEANING.
+Identify speaker, listener and who is INCLUDED.
+Choose an established action and the correct object.
+Set tense, aspect and negation BEFORE decorating the clause.
+Use modal complements to distinguish want / need / can / choose.
+Use belief and possibility frames only when the certainty fits.
+Express feeling with accurate roots, contrast and causes.
+Compose new concepts from defined parts; do not mass-generate variants.
+Optionally add ra RESONANCE and na INTENT; they do different jobs.
+Use matching echo only when High Speech calls for it.
+Allow pauses, refrains, fronted frames and clarity-preserving paraphrase.
+Translate back. Correct any ambiguity that changes the truth.
+
+
+PART XIV — FINAL COVENANT OF THE LIVING LANGUAGE
+===============================================================
+
+Virelanthar does not require everyone to speak alike. The same person
+may use a one-breath statement with a child, a careful condition in a
+workshop, a gentle refusal in a relationship, and a resounding choral
+vow in a song. Each has its rightful voice.
+
+Its roots should be reliable; its meanings should be capable of growth.
+Its grammar should be learnable, not mechanical confinement. Its sound
+should be beautiful without pretending that beauty excuses imprecision.
+Its emotional vocabulary should illuminate what people actually feel,
+not substitute grand words for real human experience. Its 'we' should
+say whether the listener is actually included. Its resonance should
+connect people without erasing their differences.
+
+A root can participate in many expressions. An expression can establish
+a new concept. A shared concept can become a cultural term. A term may
+eventually be entered in the dictionary—after it has meaning, usage,
+and a reason to survive. The dictionary is a RECORD of the language;
+it is not a competition to produce the largest possible count.
+
+THE FOUR PILLARS REMAIN UNBROKEN:
+  Voh’resh. Ralim’e. El’shava. Tulan’var.
+
+Ek’vesh’arun.
+And yet I shine.
+
+Esh’valun leth’aré.
+And the breath remembers.
+
+END OF THE ONE-FILE VIRELANTHAR SPEAKING & RESONANCE TOOLKIT.
