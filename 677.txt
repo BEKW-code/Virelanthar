@@ -1,0 +1,704 @@
+VIRELANTHAR — THE 7,777 | NOTEPAD EDITION
+Version 1.2 CANDIDATE | 2026-11-18 | UTF-8 with BOM | Windows CRLF
+============================================================
+READ ME: This is a plain-text convenience edition for reading, selecting,
+copying, commenting and making edits in Notepad. You do NOT need a ZIP
+extractor or an HTML editor for this file.
+
+SOURCE STATUS: These 7,777 are PROPOSALS, not ratified Virelanthar canon.
+677 proposed headwords + 7,100 composed sample phrases.
+The original 346 normative words from the GitHub source are NOT included
+in this 7,777 count; their canonical forms remain unchanged.
+Source: https://github.com/BEKW-code/Virelanthar
+Each numbered line: [ID] VIRELANTHAR || ENGLISH || FRANÇAIS
+Double pipes delimit fields. Preserve punctuation and accents.
+For actual machine import, use the original .csv/.json files.
+
+NOTEPAD SAVING:
+1. Use File > Save As > Encoding: UTF-8; keep the original extension.
+2. For this reader copy, .txt is intentional. For HTML, save .html; for
+   JSON, save .json; for CSV, save .csv. Choose Save as type: All files.
+3. Do not open the ZIP as text or assume renaming .txt to .html converts it.
+4. Keep the original exported machine-readable file as backup.
+============================================================
+
+
+===== 677 PROPOSED HEADWORDS =====
+
+VL-C-0001 | hamukara || kitchen || cuisine
+VL-C-0002 | havarel || pantry || garde-manger
+VL-C-0003 | sovalen || worktop; counter || plan de travail
+VL-C-0004 | bodaren || plate || assiette
+VL-C-0005 | nalira || spoon || cuillère
+VL-C-0006 | taruven || fork; dining utensil || fourchette
+VL-C-0007 | khavren || kitchen knife || couteau de cuisine
+VL-C-0008 | marol || cooking pot || marmite
+VL-C-0009 | gulavon || frying pan || poêle
+VL-C-0010 | zheriva || stove; cooktop || cuisinière
+VL-C-0011 | pekhora || oven || four
+VL-C-0012 | bekorin || kettle || bouilloire
+VL-C-0013 | thaviren || candle || bougie
+VL-C-0014 | narum || pillow || oreiller
+VL-C-0015 | delavar || mattress || matelas
+VL-C-0016 | rimara || towel || serviette
+VL-C-0017 | ravena || soap || savon
+VL-C-0018 | lilorin || windowpane || vitre
+VL-C-0019 | foriva || stair; step || marche d'escalier
+VL-C-0020 | khareth || hinge || charnière
+VL-C-0021 | zhavrel || latch || loquet
+VL-C-0022 | selavan || shelf || étagère
+VL-C-0023 | zhoral || drawer || tiroir
+VL-C-0024 | halomar || bedsheet || drap
+VL-C-0025 | laverin || rug; carpet || tapis
+VL-C-0026 | kharulen || broom || balai
+VL-C-0027 | maravis || laundry; clothes to wash || linge à laver
+VL-C-0028 | turena || key || clé
+VL-C-0029 | venilar || lock; fastening device || serrure
+VL-C-0030 | khivorel || hallway || couloir
+VL-C-0031 | valusha || balcony || balcon
+VL-C-0032 | keluma || basket || panier
+VL-C-0033 | paravin || rope || corde
+VL-C-0034 | mirelan || thread || fil
+VL-C-0035 | toravin || sewing needle || aiguille à coudre
+VL-C-0036 | silarun || fabric; cloth || tissu
+VL-C-0037 | varola || handle || poignée
+VL-C-0038 | daverun || lid || couvercle
+VL-C-0039 | kheluren || meal || repas
+VL-C-0040 | turava || breakfast || petit déjeuner
+VL-C-0041 | ravunel || lunch || déjeuner
+VL-C-0042 | dorima || evening meal; dinner || dîner
+VL-C-0043 | sataralen || recipe || recette de cuisine
+VL-C-0044 | luranet || ingredient || ingrédient
+VL-C-0045 | khorima || grain; cereal grain || grain de céréale
+VL-C-0046 | murenal || flour || farine
+VL-C-0047 | salavir || dough || pâte
+VL-C-0048 | doreth || yeast || levure
+VL-C-0049 | thimara || salt || sel
+VL-C-0050 | shaluna || sugar || sucre
+VL-C-0051 | navash || pepper spice || poivre
+VL-C-0052 | erilen || cooking oil || huile de cuisson
+VL-C-0053 | varuna || butter || beurre
+VL-C-0054 | mothena || milk || lait
+VL-C-0055 | loribesh || cheese || fromage
+VL-C-0056 | raluna || egg || œuf
+VL-C-0057 | thurelan || meat || viande
+VL-C-0058 | fashalen || fish fillet || filet de poisson
+VL-C-0059 | sunelorin || vegetable || légume
+VL-C-0060 | nathara || fruit || fruit
+VL-C-0061 | kavilar || spice || épice
+VL-C-0062 | virema || fermentation || fermentation
+VL-C-0063 | naravel || broth || bouillon
+VL-C-0064 | levorin || roast food || rôtir
+VL-C-0065 | tirumen || bake || cuire au four
+VL-C-0066 | evarol || boil a liquid || faire bouillir
+VL-C-0067 | shalira || taste; sample flavor || goûter
+VL-C-0068 | mireva || hunger || faim
+VL-C-0069 | fazira || thirst || soif
+VL-C-0070 | nuloren || flavor; taste profile || saveur
+VL-C-0071 | zharuven || promise || promesse
+VL-C-0072 | lorasha || gratitude || reconnaissance
+VL-C-0073 | zhumersh || embarrassment; social shyness || gêne
+VL-C-0074 | tariva || blush; redden from emotion || rougir d'émotion
+VL-C-0075 | raluvan || congratulate || féliciter
+VL-C-0076 | dovaren || high-five; celebratory palm slap || tape-m'en-cinq
+VL-C-0077 | talorin || high-five someone || faire un tape-m'en-cinq
+VL-C-0078 | navesha || wink || clin d'œil
+VL-C-0079 | navirel || wink || faire un clin d'œil
+VL-C-0080 | zelorin || joke; humorous remark || blague
+VL-C-0081 | halaren || tease kindly || chambrer gentiment
+VL-C-0082 | khorasha || mercy || clémence
+VL-C-0083 | serivae || friendship || amitié
+VL-C-0084 | nalavar || trustworthiness; reliability || fiabilité
+VL-C-0085 | bivorel || respect || respect
+VL-C-0086 | venorin || consent || consentement
+VL-C-0087 | viralin || boundary; personal limit || limite personnelle
+VL-C-0088 | tharava || invitation || invitation
+VL-C-0089 | savelor || welcome a guest || accueillir un invité
+VL-C-0090 | velarin || agree; express assent || être d'accord
+VL-C-0091 | zhurava || disagree respectfully || exprimer un désaccord respectueux
+VL-C-0092 | thavesha || apologize || s'excuser
+VL-C-0093 | thulira || comfort; reassurance || réconfort
+VL-C-0094 | darivash || encourage || encourager
+VL-C-0095 | horalin || reunion; meeting again || retrouvailles
+VL-C-0096 | lethora || team; working group || équipe
+VL-C-0097 | thavarun || collaborator || collaborateur
+VL-C-0098 | sharaven || conflict; disagreement || conflit
+VL-C-0099 | moravel || reconcile; make peace || se réconcilier
+VL-C-0100 | valiran || celebration || célébration
+VL-C-0101 | shirasha || shame; painful self-consciousness || honte
+VL-C-0102 | shilaven || curiosity || curiosité
+VL-C-0103 | davenor || patience || patience
+VL-C-0104 | sherava || pride in workmanship || fierté du travail bien fait
+VL-C-0105 | lirama || mischief; playful trouble || malice espiègle
+VL-C-0106 | sherorin || embrace; hug someone || serrer dans ses bras
+VL-C-0107 | khashalen || cloud || nuage
+VL-C-0108 | shevarin || thunder || tonnerre
+VL-C-0109 | varasha || lightning || éclair
+VL-C-0110 | kulorin || fog || brouillard
+VL-C-0111 | thirel || dew || rosée
+VL-C-0112 | moranis || humidity || humidité
+VL-C-0113 | zuduravel || flood || inondation
+VL-C-0114 | suravin || drought || sécheresse
+VL-C-0115 | shariva || coast || côte
+VL-C-0116 | valoren || island || île
+VL-C-0117 | nerava || cave || grotte
+VL-C-0118 | lureva || cliff || falaise
+VL-C-0119 | reshalin || meadow || prairie
+VL-C-0120 | shoravel || pond || étang
+VL-C-0121 | runaven || lake || lac
+VL-C-0122 | halava || sand || sable
+VL-C-0123 | narolen || clay || argile
+VL-C-0124 | derasha || mud || boue
+VL-C-0125 | khuvarol || compost || compost
+VL-C-0126 | laveral || moss || mousse végétale
+VL-C-0127 | tovarin || mushroom || champignon
+VL-C-0128 | furevan || bark of a tree || écorce
+VL-C-0129 | nelarun || branch || branche
+VL-C-0130 | vashel || pollen || pollen
+VL-C-0131 | zhikhiravel || nectar || nectar
+VL-C-0132 | reshava || shade || ombre
+VL-C-0133 | thelorin || season || saison
+VL-C-0134 | tavera || temperature || température
+VL-C-0135 | navorisha || weather forecast || prévision météorologique
+VL-C-0136 | zorolin || tide || marée
+VL-C-0137 | raelun || current of flowing water || courant d'eau
+VL-C-0138 | lanorin || health; wellness || santé
+VL-C-0139 | zherasha || pain; unpleasant bodily sensation || douleur
+VL-C-0140 | dosiralen || wound || blessure
+VL-C-0141 | lomeva || infection || infection
+VL-C-0142 | theralin || fever || fièvre
+VL-C-0143 | narivol || breathing rate || fréquence respiratoire
+VL-C-0144 | tiravelin || heartbeat || battement de cœur
+VL-C-0145 | laroma || fatigue || fatigue
+VL-C-0146 | beravin || sleepiness || somnolence
+VL-C-0147 | rilovar || recovery || rétablissement
+VL-C-0148 | kashalorin || accessibility || accessibilité
+VL-C-0149 | venural || assistance || assistance
+VL-C-0150 | lavasen || aid supply || matériel de secours
+VL-C-0151 | muralen || first aid || premiers secours
+VL-C-0152 | hirava || caregiver; carer || personne aidante
+VL-C-0153 | mirevor || clean drinking water || eau potable
+VL-C-0154 | savilen || sanitation || assainissement
+VL-C-0155 | taluren || hygiene || hygiène
+VL-C-0156 | nolaren || privacy; freedom from intrusion || vie privée
+VL-C-0157 | khiraven || safety margin || marge de sécurité
+VL-C-0158 | vashorin || contamination || contamination
+VL-C-0159 | revamar || disinfect || désinfecter
+VL-C-0160 | lanaren || recover from illness || se rétablir
+VL-C-0161 | niraesh || stress; strain || stress
+VL-C-0162 | thavurem || resilience; ability to recover || résilience
+VL-C-0163 | helavin || alarm || alarme
+VL-C-0164 | larivin || alert; warn || alerter
+VL-C-0165 | teravan || evacuate a place || évacuer un lieu
+VL-C-0166 | meroven || shelter-in-place order || ordre de mise à l'abri
+VL-C-0167 | larilun || backup supply || réserve de secours
+VL-C-0168 | naharavin || wood; lumber || bois d'œuvre
+VL-C-0169 | zhovalen || steel || acier
+VL-C-0170 | erorin || iron || fer
+VL-C-0171 | larevun || copper || cuivre
+VL-C-0172 | sarelen || glass || verre
+VL-C-0173 | pumiralen || ceramic || céramique
+VL-C-0174 | loraven || polymer; plastic material || polymère
+VL-C-0175 | shalavar || fiber || fibre
+VL-C-0176 | verilin || carbon || carbone
+VL-C-0177 | moralun || composite material || matériau composite
+VL-C-0178 | khuravel || alloy || alliage
+VL-C-0179 | khalorin || fastener || élément de fixation
+VL-C-0180 | varumel || bolt || boulon
+VL-C-0181 | numaren || nut; threaded fastener || écrou
+VL-C-0182 | mavorin || screw || vis
+VL-C-0183 | zhalaven || washer; mechanical spacer || rondelle
+VL-C-0184 | kholaren || bearing; rotational support || roulement
+VL-C-0185 | verolan || gear || engrenage
+VL-C-0186 | khoviren || shaft; axle || arbre mécanique
+VL-C-0187 | lorumel || seal; gasket || joint d'étanchéité
+VL-C-0188 | kivenor || weld || soudure
+VL-C-0189 | khelarin || solder joint || joint de brasure
+VL-C-0190 | thelarun || adhesive || adhésif
+VL-C-0191 | peraven || pipe || tuyau
+VL-C-0192 | polavar || valve || vanne
+VL-C-0193 | kusuravel || pump || pompe
+VL-C-0194 | vavolen || filter || filtre
+VL-C-0195 | thelavan || mesh; net || maillage
+VL-C-0196 | helurin || insulation || isolation thermique
+VL-C-0197 | silavar || frame; structural chassis || châssis
+VL-C-0198 | veluren || joint; articulation || articulation
+VL-C-0199 | tovalir || cut material || couper un matériau
+VL-C-0200 | rumeval || assemble parts || assembler des pièces
+VL-C-0201 | mavorel || disassemble || émonter
+VL-C-0202 | hiralen || polish a surface || polir une surface
+VL-C-0203 | salaven || sand; abrade a surface || poncer une surface
+VL-C-0204 | marovel || cast molten material in a mold || couler en moule
+VL-C-0205 | dureval || weave fabric || tisser
+VL-C-0206 | shaliven || voltage || tension électrique
+VL-C-0207 | khoralen || electrical resistance || résistance électrique
+VL-C-0208 | varenil || capacitance || capacité électrique
+VL-C-0209 | nolavin || battery || batterie
+VL-C-0210 | tharovel || cell; battery cell || cellule de batterie
+VL-C-0211 | seravel || solar panel || panneau solaire
+VL-C-0212 | varilen || photovoltaic cell || cellule photovoltaïque
+VL-C-0213 | zhereval || wind turbine || éolienne
+VL-C-0214 | vasharen || generator || génératrice
+VL-C-0215 | zholavin || inverter; power electronics || onduleur
+VL-C-0216 | hiloren || power grid || réseau électrique
+VL-C-0217 | sholaver || transformer; electrical device || transformateur électrique
+VL-C-0218 | vuvorel || fuse || fusible
+VL-C-0219 | mahervin || circuit breaker || disjoncteur
+VL-C-0220 | khoravin || cable || câble
+VL-C-0221 | vashorel || connector || connecteur
+VL-C-0222 | raraven || sensor || capteur
+VL-C-0223 | varolun || actuator || actionneur
+VL-C-0224 | melorinel || motor || moteur
+VL-C-0225 | pavaren || coolant || fluide caloporteur
+VL-C-0226 | shulorin || heat exchanger || échangeur thermique
+VL-C-0227 | shaverin || thermal insulation || système d'isolation thermique
+VL-C-0228 | lanovel || energy budget || bilan énergétique
+VL-C-0229 | tiralon || power consumption || consommation d'énergie
+VL-C-0230 | zhumeravel || stored energy || énergie stockée
+VL-C-0231 | zheralen || regeneration; energy recovery || récupération d'énergie
+VL-C-0232 | salorinel || waste heat || chaleur perdue
+VL-C-0233 | varorel || water purification || purification de l'eau
+VL-C-0234 | zharavel || graywater || eaux grises
+VL-C-0235 | valorenel || potable-water supply || alimentation en eau potable
+VL-C-0236 | shavaren || rainwater collection || collecte de pluie
+VL-C-0237 | lareval || recycling || recyclage
+VL-C-0238 | vinarel || material recovery || récupération de matériaux
+VL-C-0239 | sumarol || carbon capture || captage du carbone
+VL-C-0240 | merunel || sustainability || durabilité environnementale
+VL-C-0241 | fuveralen || data || donnée
+VL-C-0242 | nivaren || file; computer document || fichier informatique
+VL-C-0243 | shuralen || folder; directory || dossier
+VL-C-0244 | moliren || computer || ordinateur
+VL-C-0245 | kharumel || server || serveur
+VL-C-0246 | baliren || software || logiciel
+VL-C-0247 | darorin || hardware; physical computer equipment || matériel informatique
+VL-C-0248 | laviren || code; software source || code source
+VL-C-0249 | torelin || program || programme
+VL-C-0250 | kiviren || function; software routine || fonction logicielle
+VL-C-0251 | zharolen || variable; stored value || variable
+VL-C-0252 | sharilen || input; provided data || entrée de données
+VL-C-0253 | dolaven || output; produced data || sortie de données
+VL-C-0254 | neralin || error; detected discrepancy || erreur
+VL-C-0255 | sirelun || bug; software fault || bogue
+VL-C-0256 | vorelun || patch; corrective software change || correctif logiciel
+VL-C-0257 | torarim || version || version
+VL-C-0258 | zhavoren || backup copy || copie de sauvegarde
+VL-C-0259 | larovem || archive || archive
+VL-C-0260 | gerolen || license; permission to use || licence d'utilisation
+VL-C-0261 | zikelorin || attribution; credit || crédit d'auteur
+VL-C-0262 | marolin || documentation || documentation
+VL-C-0263 | tavelin || instruction; operating step || instruction
+VL-C-0264 | miroren || specification || spécification
+VL-C-0265 | varinel || requirement; acceptance criterion || exigence
+VL-C-0266 | zhilorin || test result || résultat de test
+VL-C-0267 | surelan || measurement record || relevé de mesure
+VL-C-0268 | vashilen || hypothesis || hypothèse
+VL-C-0269 | maruvenel || uncertainty || incertitude
+VL-C-0270 | laruren || evidence || preuve
+VL-C-0271 | shaloren || simulation || simulation
+VL-C-0272 | larimen || debug; locate software faults || déboguer
+VL-C-0273 | nirenal || verify data against a source || vérifier des données
+VL-C-0274 | selaren || publish openly || publier ouvertement
+VL-C-0275 | rumalen || melody || mélodie
+VL-C-0276 | sheramil || harmony; musical chord relation || harmonie musicale
+VL-C-0277 | sorolun || rhythm || rythme
+VL-C-0278 | varumelir || beat; rhythmic pulse || pulsation rythmique
+VL-C-0279 | thariven || measure; musical bar || mesure musicale
+VL-C-0280 | larivez || tempo || tempo
+VL-C-0281 | zimalen || accent; strong beat || accent rythmique
+VL-C-0282 | solorin || pitch; perceived musical height || hauteur musicale
+VL-C-0283 | tavaravel || timbre || timbre
+VL-C-0284 | lanorinel || octave || octave
+VL-C-0285 | melavel || chord; simultaneous tones || accord musical
+VL-C-0286 | zhaluren || interval; pitch distance || intervalle musical
+VL-C-0287 | mirevalen || verse; song stanza || couplet
+VL-C-0288 | shalorenel || chorus; refrain || refrain
+VL-C-0289 | lairaven || bridge; musical transition || pont musical
+VL-C-0290 | savorelun || breath mark in score || marque de respiration
+VL-C-0291 | thireval || lyric; sung text || paroles de chanson
+VL-C-0292 | dorilen || rehearsal || répétition
+VL-C-0293 | kharivash || performance || prestation musicale
+VL-C-0294 | tholaven || microphone || microphone
+VL-C-0295 | shavenel || amplifier || amplificateur
+VL-C-0296 | marovelir || speaker; loudspeaker || haut-parleur
+VL-C-0297 | leloren || recording || enregistrement
+VL-C-0298 | thuraven || silence between notes || silence musical
+VL-C-0299 | laranel || hum a melody || fredonner
+VL-C-0300 | zhovalir || improvise musically || improviser en musique
+VL-C-0301 | maralir || rehearse a musical piece || répéter une pièce musicale
+VL-C-0302 | zhoraven || conduct musicians || diriger des musiciens
+VL-C-0303 | veralenel || synchronize rhythm || synchroniser le rythme
+VL-C-0304 | puravel || compose music || composer de la musique
+VL-C-0305 | tolava || choir || chœur
+VL-C-0306 | sherolen || lesson || leçon
+VL-C-0307 | talavin || exercise; practice task || exercice
+VL-C-0308 | shasholen || skill || compétence
+VL-C-0309 | marival || apprentice || apprenti
+VL-C-0310 | tharalen || teacher || enseignant
+VL-C-0311 | shavarol || student || élève
+VL-C-0312 | taselorin || scholarship; knowledge || érudition
+VL-C-0313 | diniravel || explanation || explication
+VL-C-0314 | mirevalir || demonstration || démonstration
+VL-C-0315 | paroven || example || exemple
+VL-C-0316 | therunel || definition || définition
+VL-C-0317 | hevolin || principle; guiding rule || principe
+VL-C-0318 | khoravelin || cause || cause
+VL-C-0319 | zharavin || effect; consequence || conséquence
+VL-C-0320 | varavelin || assumption || hypothèse de départ
+VL-C-0321 | lorevin || observation || observation
+VL-C-0322 | savarin || deduction || déduction
+VL-C-0323 | marolinel || counterexample || contre-exemple
+VL-C-0324 | terolin || paradox || paradoxe
+VL-C-0325 | malarin || mistake; human error || erreur humaine
+VL-C-0326 | revaren || practice a skill || s'exercer
+VL-C-0327 | nolavinel || compare || déterminer les différences
+VL-C-0328 | verulen || infer from evidence || déduire de preuves
+VL-C-0329 | lirinel || revise; correct a draft || réviser un brouillon
+VL-C-0330 | savirun || evaluate quality || évaluer la qualité
+VL-C-0331 | kharalin || translation fidelity || fidélité de traduction
+VL-C-0332 | tuvenor || pronunciation || prononciation
+VL-C-0333 | thiravin || stress; accented syllable || accent tonique
+VL-C-0334 | tevarel || intonation || intonation
+VL-C-0335 | loravinel || syllable || syllabe
+VL-C-0336 | ralenir || vowel || voyelle
+VL-C-0337 | thavenor || consonant || consonne
+VL-C-0338 | varilenel || minute || minute
+VL-C-0339 | therilen || hour || heure
+VL-C-0340 | navolin || day; calendar day || jour
+VL-C-0341 | zhalarin || week || semaine
+VL-C-0342 | taralin || month || mois
+VL-C-0343 | lavenar || year || année
+VL-C-0344 | duraven || morning || matin
+VL-C-0345 | moravelor || noon || midi
+VL-C-0346 | zharovelir || evening || soir
+VL-C-0347 | navirenel || midnight || minuit
+VL-C-0348 | khivaren || appointment || rendez-vous
+VL-C-0349 | ravoren || deadline || date limite
+VL-C-0350 | lurolin || schedule || calendrier; programme
+VL-C-0351 | zharavelin || journey; trip || voyage
+VL-C-0352 | thovaren || waypoint || point de passage
+VL-C-0353 | zharulenel || map || carte géographique
+VL-C-0354 | sheravin || direction || orientation
+VL-C-0355 | larimenel || compass || boussole
+VL-C-0356 | sarolenel || vehicle || véhicule
+VL-C-0357 | funavel || wheel || roue
+VL-C-0358 | nolarenel || cargo || cargaison
+VL-C-0359 | mirelanol || freight || fret
+VL-C-0360 | zhirelan || shipment || expédition de marchandises
+VL-C-0361 | zilaven || trade; exchange of goods || commerce; échange
+VL-C-0362 | zorelan || gift; freely given present || cadeau
+VL-C-0363 | morolen || price || prix
+VL-C-0364 | nunoralen || cost; expense || coût
+VL-C-0365 | maravol || budget || budget
+VL-C-0366 | kenoral || ownership || propriété
+VL-C-0367 | devaraven || commons; shared resource || bien commun
+VL-C-0368 | larovelun || community center || maison de quartier
+VL-C-0369 | lelaven || public access || accès public
+VL-C-0370 | halaver || lift; raise an object || soulever un objet
+VL-C-0371 | loramin || lower; set down || abaisser; déposer
+VL-C-0372 | tharavelor || push || pousser
+VL-C-0373 | theravel || pull || tirer
+VL-C-0374 | zhurevin || turn; rotate || faire tourner
+VL-C-0375 | nuvalorin || tighten a fastener || serrer une fixation
+VL-C-0376 | perevin || loosen a fastener || desserrer une fixation
+VL-C-0377 | marulen || mix ingredients || mélanger des ingrédients
+VL-C-0378 | turevin || stir a liquid || remuer un liquide
+VL-C-0379 | lenaval || pour a liquid || verser un liquide
+VL-C-0380 | rilaver || fill a container || remplir un récipient
+VL-C-0381 | zarulin || empty a container || vider un récipient
+VL-C-0382 | shelavor || carry carefully || porter avec précaution
+VL-C-0383 | zherunelir || weigh; determine mass || peser
+VL-C-0384 | khelavar || label; attach a designation || étiqueter
+VL-C-0385 | shirevalen || sort by category || trier par catégorie
+VL-C-0386 | savolir || store for later use || entreposer
+VL-C-0387 | varavelor || retrieve a stored item || récupérer un objet stocké
+VL-C-0388 | karalen || inspect for defects || inspecter
+VL-C-0389 | seralen || calibrate an instrument || étalonner un instrument
+VL-C-0390 | khetoravel || install a component || installer un composant
+VL-C-0391 | varinelir || replace a worn component || remplacer un composant usé
+VL-C-0392 | lurevalir || reset a system || réinitialiser un système
+VL-C-0393 | sharunel || record a measurement || enregistrer une mesure
+VL-C-0394 | shirevalir || document a procedure || documenter une procédure
+VL-C-0395 | garivon || count distinct items || compter des objets distincts
+VL-C-0396 | shavorel || allocate supplies || allouer des fournitures
+VL-C-0397 | mirelanir || distribute to recipients || distribuer aux destinataires
+VL-C-0398 | varunen || reuse a component || réutiliser un composant
+VL-C-0399 | loravenir || recycle a material || recycler une matière
+VL-C-0400 | shuravelin || collect waste safely || collecter des déchets sans danger
+VL-C-0401 | firavin || plant a seed || semer une graine
+VL-C-0402 | melorinir || irrigate crops || irriguer des cultures
+VL-C-0403 | zhanorel || harvest a crop || récolter une culture
+VL-C-0404 | neravir || research systematically || faire des recherches méthodiques
+VL-C-0405 | sirovel || design a new mechanism || concevoir un mécanisme
+VL-C-0406 | zarivem || prototype; construct a test model || prototyper
+VL-C-0407 | khoreval || refute with evidence || réfuter par des preuves
+VL-C-0408 | maravorel || cooperate on a task || coopérer à une tâche
+VL-C-0409 | solariv || translate an idea into practice || mettre une idée en pratique
+VL-C-0410 | meravelir || improve a design || améliorer une conception
+VL-C-0411 | horenal || synchronize movements || synchroniser des mouvements
+VL-C-0412 | soreval || respond; give a reply || répondre à quelqu'un
+VL-C-0413 | valarun || interrupt a speaker || interrompre une personne
+VL-C-0414 | voravinir || listen attentively || écouter attentivement
+VL-C-0415 | tharenil || whisper || chuchoter
+VL-C-0416 | garunel || shout; call loudly || crier pour se faire entendre
+VL-C-0417 | merunelir || thank someone || remercier quelqu'un
+VL-C-0418 | toravelir || share credit fairly || partager équitablement le mérite
+VL-C-0419 | maralé || careful; attentive || attentif; précautionneux
+VL-C-0420 | verulá || precise; exact || précis
+VL-C-0421 | siravé || approximate; estimated || approximatif
+VL-C-0422 | seralé || verified by examination || vérifié par examen
+VL-C-0423 | zhelaviná || unverified; not yet checked || non vérifié
+VL-C-0424 | talavé || measured; observed in a test || mesuré
+VL-C-0425 | peravé || proposed; awaiting approval || proposé; non approuvé
+VL-C-0426 | luremá || functional; operating || fonctionnel
+VL-C-0427 | zhoravé || faulty; malfunctioning || défectueux
+VL-C-0428 | veroná || repairable || réparable
+VL-C-0429 | savirá || modular; composed of replaceable parts || modulaire
+VL-C-0430 | furavé || reusable; fit for reuse || réutilisable
+VL-C-0431 | tarená || fragile; easily damaged || fragile
+VL-C-0432 | maruná || durable; long-lasting || durable
+VL-C-0433 | virelá || resilient; able to recover || résilient
+VL-C-0434 | bolaré || generous; freely giving || généreux
+VL-C-0435 | shirelá || curious; inquisitive || curieux
+VL-C-0436 | larevá || playful; mischievous || joueur; espiègle
+VL-C-0437 | teraná || shy; bashful || timide
+VL-C-0438 | serivá || joyful; delighted || joyeux
+VL-C-0439 | toravé || reliable; dependable || fiable
+VL-C-0440 | doraré || accessible; easy to use || accessible
+VL-C-0441 | shuravé || recyclable || recyclable
+VL-C-0442 | parolá || shared; community-owned || mutualisé
+VL-C-0443 | surelá || independent; self-sufficient || indépendant
+VL-C-0444 | patariná || portable; easy to move || portable
+VL-C-0445 | morivá || temporary; for limited time || temporaire
+VL-C-0446 | saluvéna || permanent; lasting || permanent
+VL-C-0447 | loralé || quiet in sound || peu sonore
+VL-C-0448 | haravé || harmonious in music || harmonieux en musique
+VL-C-0449 | theravé || dissonant in music || dissonant en musique
+VL-C-0450 | parivá || synchronous; aligned in time || synchronisé
+VL-C-0451 | lirená || out of sync; temporally misaligned || désynchronisé
+VL-C-0452 | tavaré || stable under load || stable sous charge
+VL-C-0453 | sholaré || variable; changing || variable
+VL-C-0454 | seruná || clear in meaning || clair dans son sens
+VL-C-0455 | revalun || fundamental frequency; lowest harmonic component || fréquence fondamentale
+VL-C-0456 | shavolin || overtone; higher-frequency partial || harmonique supérieur
+VL-C-0457 | voralen || resonance frequency; frequency of strongest response || fréquence de résonance
+VL-C-0458 | khilarun || phase difference between oscillations || différence de phase
+VL-C-0459 | shalonir || amplitude; oscillation magnitude || amplitude
+VL-C-0460 | loravelin || frequency; cycles per unit time || fréquence
+VL-C-0461 | varilora || period; duration of one cycle || période d'oscillation
+VL-C-0462 | zharenol || damping; loss of oscillation amplitude || amortissement
+VL-C-0463 | tavarol || sustained note; musical hold || note tenue
+VL-C-0464 | zherolin || vibrato; periodic pitch variation || vibrato
+VL-C-0465 | lirevan || call-and-response exchange || chant responsorial
+VL-C-0466 | ravoril || unison; same-pitch singing || unisson
+VL-C-0467 | virelanor || polyphony; simultaneous independent voices || polyphonie
+VL-C-0468 | sarenol || drone; sustained background tone || bourdon musical
+VL-C-0469 | laravinol || cadence; ending phrase in music || cadence musicale
+VL-C-0470 | niraven || articulation; joining and separating sounds || articulation musicale
+VL-C-0471 | verashol || harmonic series; overtones above a fundamental || série harmonique
+VL-C-0472 | rireval || echo a phrase vocally || répéter une phrase en écho
+VL-C-0473 | marivenol || sustain a sung note || tenir une note
+VL-C-0474 | talavor || alternate two singers' responses || alterner des réponses chantées
+VL-C-0475 | soravenil || match a reference pitch || s'accorder sur une hauteur de référence
+VL-C-0476 | dumorá || dense; thick in volume || dense; épais
+VL-C-0477 | zhunarim || nod in acknowledgment || acquiescer d'un signe de tête
+VL-N-0001 | lilizhonal || shared joke || plaisanterie partagée
+VL-N-0002 | lizhetimir || comic timing || sens du rythme comique
+VL-N-0003 | likunushar || punchline || chute d'une plaisanterie
+VL-N-0004 | lithazhinal || good-natured sarcasm || sarcasme bienveillant
+VL-N-0005 | lizhisuran || misunderstanding || malentendu
+VL-N-0006 | limomerath || clarification || clarification
+VL-N-0007 | lidirinal || active listening || écoute active
+VL-N-0008 | limosuvar || mutual recognition || reconnaissance mutuelle
+VL-N-0009 | limeheren || creative rapport || complicité créative
+VL-N-0010 | likaluvash || friendly challenge || défi amical
+VL-N-0011 | lilameveth || gentle disagreement || désaccord courtois
+VL-N-0012 | lizuhaveth || shared laughter || rire partagé
+VL-N-0013 | lilagonal || unspoken understanding || compréhension tacite
+VL-N-0014 | ligebuvash || celebratory gesture || geste de célébration
+VL-N-0015 | lidituvash || playful comeback || réplique malicieuse
+VL-N-0016 | ligekhethal || welcoming gesture || geste de bienvenue
+VL-N-0017 | lihukaran || encouraging word || parole encourageante
+VL-N-0018 | lihilevel || tender farewell || adieu tendre
+VL-N-0019 | liremiren || joyful reunion || retrouvailles joyeuses
+VL-N-0020 | liruthuvar || shared decision || décision commune
+VL-N-0021 | lithagurath || acknowledge a mistake || reconnaître une erreur
+VL-N-0022 | lisuboren || invite participation || inviter à participer
+VL-N-0023 | limapunira || celebrate a colleague || célébrer un collègue
+VL-N-0024 | lipepeven || reassure a friend || rassurer un ami
+VL-N-0025 | linuzaran || resolve a misunderstanding || dissiper un malentendu
+VL-N-0026 | sedemilin || informed consent || consentement éclairé
+VL-N-0027 | semafamir || collective stewardship || gestion collective responsable
+VL-N-0028 | sevasiven || shared responsibility || responsabilité partagée
+VL-N-0029 | seshezhovar || public accountability || responsabilité devant le public
+VL-N-0030 | sesusoven || voluntary participation || participation volontaire
+VL-N-0031 | sezapulath || fair access || accès équitable
+VL-N-0032 | serepevar || open collaboration || collaboration ouverte
+VL-N-0033 | sefusoran || community consent || consentement collectif
+VL-N-0034 | sezhezushar || conflict mediation || médiation des conflits
+VL-N-0035 | sehasavash || transparent decision || décision transparente
+VL-N-0036 | seshepeshar || local ownership || propriété locale
+VL-N-0037 | sepufalin || community benefit || avantage collectif
+VL-N-0038 | sebunamir || reciprocal exchange || échange réciproque
+VL-N-0039 | sesimanal || dignified assistance || aide respectueuse de la dignité
+VL-N-0040 | setherunira || shared maintenance || entretien partagé
+VL-N-0041 | sekuzevash || intergenerational care || soin entre générations
+VL-N-0042 | sevikavel || accessible instruction || enseignement accessible
+VL-N-0043 | senothenira || credit for contribution || reconnaissance de contribution
+VL-N-0044 | sehiruvar || permission to adapt || permission d'adapter
+VL-N-0045 | seluthuvel || community review || examen par la communauté
+VL-N-0046 | senasoshar || share authority || partager l'autorité
+VL-N-0047 | selureran || honor consent || respecter le consentement
+VL-N-0048 | sebothumir || disclose limitations || déclarer les limites
+VL-N-0049 | segedulath || welcome correction || accueillir une correction
+VL-N-0050 | selushishar || protect autonomy || protéger l'autonomie
+VL-N-0051 | tormabomir || material passport || passeport matériau
+VL-N-0052 | torsipevash || traceable salvage || récupération traçable
+VL-N-0053 | torneshenal || service opening || ouverture d'entretien
+VL-N-0054 | tornigethal || disassembly guide || guide de démontage
+VL-N-0055 | torzomaveth || replaceable joint || articulation remplaçable
+VL-N-0056 | torshumumori || sacrificial fuse || fusible de protection
+VL-N-0057 | torbishithal || manual override || commande manuelle prioritaire
+VL-N-0058 | tortalolin || mechanical interlock || verrouillage mécanique
+VL-N-0059 | tornomavash || strain relief || soulagement des contraintes
+VL-N-0060 | torvapaven || failure mode || mode de défaillance
+VL-N-0061 | tortiraven || test jig || gabarit d'essai
+VL-N-0062 | torsuvovar || proof-of-concept rig || montage de preuve de concept
+VL-N-0063 | torzunuven || service interval || intervalle d'entretien
+VL-N-0064 | torkhapunira || tool clearance || jeu d'outil
+VL-N-0065 | torhizamir || hand-fit tolerance || tolérance d'ajustement manuel
+VL-N-0066 | torkegeshar || inspection hatch || trappe d'inspection
+VL-N-0067 | torzhevilath || load path || chemin de charge
+VL-N-0068 | torkhalorath || failure record || fiche de défaillance
+VL-N-0069 | tormikushar || repair log || journal de réparation
+VL-N-0070 | torlemeveth || field retrofit || adaptation sur le terrain
+VL-N-0071 | torkinalin || isolate the circuit || isoler le circuit
+VL-N-0072 | torshudonira || test under load || tester sous charge
+VL-N-0073 | torgiloveth || verify the seal || vérifier l'étanchéité
+VL-N-0074 | torthuvunal || preserve the evidence || préserver les preuves
+VL-N-0075 | torrinerath || measure before cutting || mesurer avant de couper
+VL-N-0076 | vasugushar || watershed health || santé du bassin versant
+VL-N-0077 | vadubiran || soil infiltration || infiltration du sol
+VL-N-0078 | vasaponira || groundwater recharge || recharge des nappes souterraines
+VL-N-0079 | valaraven || water quality sample || échantillon de qualité de l'eau
+VL-N-0080 | vapuzovel || rainwater first flush || premières eaux de ruissellement
+VL-N-0081 | vafizemir || microbial contamination || contamination microbienne
+VL-N-0082 | vagipilath || potable water test || analyse de potabilité
+VL-N-0083 | vathovurath || seasonal harvest || récolte saisonnière
+VL-N-0084 | vamefoshar || seed viability || viabilité des graines
+VL-N-0085 | vafizithal || soil regeneration || régénération des sols
+VL-N-0086 | valigeran || crop diversity || diversité des cultures
+VL-N-0087 | vanuharen || compost maturity || maturité du compost
+VL-N-0088 | vakagaran || kitchen surplus || surplus de cuisine
+VL-N-0089 | vagusamir || food safety check || contrôle de sécurité alimentaire
+VL-N-0090 | vamegelath || fermentation vessel || récipient de fermentation
+VL-N-0091 | vaguvulath || cool storage || stockage au frais
+VL-N-0092 | vafekishar || cold-chain break || rupture de la chaîne du froid
+VL-N-0093 | vametoran || urban habitat corridor || corridor d'habitat urbain
+VL-N-0094 | varokharen || pollinator refuge || refuge pour pollinisateurs
+VL-N-0095 | variluvash || soil amendment || amendement du sol
+VL-N-0096 | vazhudonal || monitor water quality || surveiller la qualité de l'eau
+VL-N-0097 | vaveralin || restore the watershed || restaurer le bassin versant
+VL-N-0098 | varonaran || protect seedlings || protéger les jeunes plants
+VL-N-0099 | vathugumir || separate clean water || séparer l'eau propre
+VL-N-0100 | vapilenal || prevent food waste || prévenir le gaspillage alimentaire
+VL-N-0101 | kelshepilin || source distinction || distinction des sources
+VL-N-0102 | kelthizeveth || uncertainty label || étiquette d'incertitude
+VL-N-0103 | kelbeluthal || evidence trail || chaîne de preuves
+VL-N-0104 | kelzipemori || scope limitation || limite de portée
+VL-N-0105 | kelnakhanal || testing protocol || protocole d'essai
+VL-N-0106 | kelsasuthal || independent replication || réplique indépendante
+VL-N-0107 | kelbethovash || counterfactual question || question contrefactuelle
+VL-N-0108 | kelshufulin || learner autonomy || autonomie de l'apprenant
+VL-N-0109 | kelfusothal || productive confusion || confusion féconde
+VL-N-0110 | kelruzhiren || worked example || exemple résolu
+VL-N-0111 | kelbuzhaveth || unspoiled puzzle || énigme sans indice révélateur
+VL-N-0112 | kelbiruvar || skill transfer || transfert de compétences
+VL-N-0113 | kellihunira || teaching sequence || séquence pédagogique
+VL-N-0114 | kelzibunal || interpretive caution || prudence d'interprétation
+VL-N-0115 | kelkushenal || version history || historique des versions
+VL-N-0116 | kelzasethal || change rationale || motif de modification
+VL-N-0117 | kelpaviran || editorial approval || validation éditoriale
+VL-N-0118 | kelkhabumori || rejected candidate || candidat rejeté
+VL-N-0119 | kelvuziven || unverified estimate || estimation non vérifiée
+VL-N-0120 | kelthivuren || measurement uncertainty || incertitude de mesure
+VL-N-0121 | kelsudeshar || state the assumption || énoncer l'hypothèse
+VL-N-0122 | kelshokhovel || check the source || vérifier la source
+VL-N-0123 | kelshobanira || teach the controls || enseigner les commandes
+VL-N-0124 | kelpezhevash || protect the puzzle || préserver l'énigme
+VL-N-0125 | kelkarirath || publish the correction || publier la correction
+VL-N-0126 | rikotevar || anacrusis || anacrouse
+VL-N-0127 | risuremori || offbeat accent || accent à contretemps
+VL-N-0128 | rizhudaran || call-and-response duet || duo en appel-réponse
+VL-N-0129 | ribafamori || harmonic tension || tension harmonique
+VL-N-0130 | rivashunal || tonal resolution || résolution tonale
+VL-N-0131 | rihaserath || sustained vowel || voyelle tenue
+VL-N-0132 | risopithal || breath interval || intervalle respiratoire
+VL-N-0133 | rikhifuvel || measured silence || silence mesuré
+VL-N-0134 | riseliven || unison entrance || entrée à l'unisson
+VL-N-0135 | risheberan || contrary motion || mouvement contraire
+VL-N-0136 | rilathelin || cross-rhythm || rythme croisé
+VL-N-0137 | rikhivirath || polyrhythm || polyrythmie
+VL-N-0138 | rishanavash || rhythmic displacement || déplacement rythmique
+VL-N-0139 | ribiroshar || microtiming || microtemporisation
+VL-N-0140 | ripohevel || frequency envelope || enveloppe fréquentielle
+VL-N-0141 | rigathomori || phase alignment || alignement de phase
+VL-N-0142 | rifalilin || resonant response || réponse résonante
+VL-N-0143 | rishiraveth || decay time || temps de décroissance
+VL-N-0144 | rifisenal || vocal placement || placement vocal
+VL-N-0145 | rigavurath || polyphonic texture || texture polyphonique
+VL-N-0146 | ribamuran || answer the melody || répondre à la mélodie
+VL-N-0147 | riruvonal || sustain the note || tenir la note
+VL-N-0148 | rithothuvel || match the stress || respecter l'accent tonique
+VL-N-0149 | rithapanira || change the meter || changer la mesure
+VL-N-0150 | rikhakamori || leave room to breathe || laisser de l'espace pour respirer
+VL-N-0151 | navhogomori || risk boundary || limite de risque
+VL-N-0152 | navfakemir || safe shutdown || arrêt sûr
+VL-N-0153 | navfapivar || failure containment || confinement des défaillances
+VL-N-0154 | navratomir || graceful degradation || dégradation progressive contrôlée
+VL-N-0155 | navhuthoveth || redundant pathway || voie redondante
+VL-N-0156 | navnezharan || backup procedure || procédure de secours
+VL-N-0157 | navnusiveth || safe refuge || refuge sûr
+VL-N-0158 | navvivemir || evacuation route || itinéraire d'évacuation
+VL-N-0159 | navthaheshar || accessibility route || itinéraire accessible
+VL-N-0160 | navlabolath || recovery plan || plan de rétablissement
+VL-N-0161 | navpigimori || hazard map || carte des dangers
+VL-N-0162 | navbifothal || exposure limit || limite d'exposition
+VL-N-0163 | navhovumir || public warning || avertissement public
+VL-N-0164 | navgolothal || medical referral || orientation médicale
+VL-N-0165 | navvudulath || informed refusal || refus éclairé
+VL-N-0166 | navmuminira || privacy safeguard || garantie de confidentialité
+VL-N-0167 | navsakhavel || consent record || trace du consentement
+VL-N-0168 | navzukeveth || clean-zone boundary || limite de zone propre
+VL-N-0169 | navnapivash || emergency reserve || réserve d'urgence
+VL-N-0170 | navzegerath || independent audit || audit indépendant
+VL-N-0171 | navzheziren || report the fault || signaler la panne
+VL-N-0172 | navtazhomir || pause the machine || mettre la machine en pause
+VL-N-0173 | navvuzhuvel || call for help || appeler à l'aide
+VL-N-0174 | navzatemir || protect the user || protéger l'utilisateur
+VL-N-0175 | navdonumori || restore service || rétablir le service
+VL-N-0176 | elkoshimori || ordinary beauty || beauté quotidienne
+VL-N-0177 | elhathumori || living tradition || tradition vivante
+VL-N-0178 | elhenoven || creative inheritance || héritage créatif
+VL-N-0179 | elkhikharen || shared authorship || création en commun
+VL-N-0180 | elkhizilin || cultural translation || traduction culturelle
+VL-N-0181 | elvonunal || mutual adaptation || adaptation réciproque
+VL-N-0182 | ellizoveth || place memory || mémoire des lieux
+VL-N-0183 | elmuzhamir || community archive || archive communautaire
+VL-N-0184 | elzhuthanira || open invitation || invitation ouverte
+VL-N-0185 | elvotovel || signature gesture || geste caractéristique
+VL-N-0186 | elthozhaveth || gentle persistence || persévérance douce
+VL-N-0187 | elkhothiran || tested optimism || optimisme éprouvé
+VL-N-0188 | elbezaven || quiet competence || compétence tranquille
+VL-N-0189 | elbetamori || shared celebration || célébration collective
+VL-N-0190 | elzovaren || new beginning || nouveau départ
+VL-N-0191 | elsushulin || earned trust || confiance méritée
+VL-N-0192 | elzhepinira || future memory || souvenir du futur
+VL-N-0193 | elpavelin || repairable future || avenir réparable
+VL-N-0194 | elnavamir || good ending || fin heureuse
+VL-N-0195 | elkherishar || ongoing conversation || conversation continue
+VL-N-0196 | elpenomir || honor the predecessor || honorer le prédécesseur
+VL-N-0197 | elgezhashar || welcome the newcomer || accueillir le nouvel arrivant
+VL-N-0198 | elhokoren || continue the work || poursuivre le travail
+VL-N-0199 | elshunuthal || pass on the skill || transmettre le savoir-faire
+VL-N-0200 | elnerovar || remember the lesson || se souvenir de la leçon
