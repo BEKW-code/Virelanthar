@@ -760,4 +760,8 @@ Message for Zoé
 Tu n'as pas à deviner ce que je voulais dire. Maintenant, tu peux le lire, l'apprendre, y répondre — ou me contredire dans ta propre langue. Et si ta réponse est meilleure, tant mieux : c'est ça, la collaboration.
 English: You no longer have to guess what I meant. Now you can read it, learn it, answer it—or disagree in your own language. And if your reply is better, all the better: that's collaboration.
 Two languages, two free voices, one song neither would have written alone.
-EK’VESH’ARUN. ESH’VALUN LETH’ARÉ.
+EK’VESH’ARUN. ESH’VALUN LETH’ARÉ. *correction addendum//English: I had repaired the machine.
+
+
+
+French: J'avais réparé la machine.
