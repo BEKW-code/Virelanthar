@@ -1,0 +1,306 @@
+
+VIRELANTHAR — LIVING ERRATA & USAGE GUARDRAILS
+File: 00_VIRELANTHAR_ERRATA_AND_GUARDRAILS.txt
+Opened: 2026-11-18 | Status: ACTIVE | UTF-8 plain text
+
+PURPOSE
+
+This is the ongoing record of confirmed mistakes, misleading references,
+and usage traps in the Virelanthar repository.
+
+Add new numbered entries here rather than scattering small corrections
+through many documents. Preserve original files unless an actual
+technical repair becomes necessary.
+
+This is an ERRATA ADDENDUM, not a replacement dictionary, a new
+vocabulary release, or permission to invent translations.
+
+A correction here overrides the specific mistaken statement identified
+below, but does not discard unrelated valid source material.
+
+CURRENT READING ORDER
+
+1. Preserved Four Pillars and two sacred closing formulas.
+2. Virelanthar definitive.MD — established grammar and vocabulary.
+3. VIRELANTHAR SPEAKING & RESONANCE TOOLKIT.txt — expressive usage
+   and clearly marked newer extensions.
+4. Lexicon.json — 346 established dictionary entries.
+5. 7777.txt / 677.txt — proposed material, not automatically canon.
+6. Handoff.md — historical research, NOT current grammar authority.
+
+This file takes precedence only for corrections explicitly recorded here.
+Keth'ar retains final editorial authority.
+
+
+============================================================
+CONFIRMED ERRATA
+============================================================
+
+E-001 | ACTIVE | INCORRECT TENSE TRANSLATION
+
+FILE: Virelanthar definitive.MD
+
+Original sentence:
+Mi ya se makel ei navor.
+
+Incorrect English:
+I have repaired the machine.
+
+Incorrect French:
+J’ai réparé la machine.
+
+CORRECT INTERPRETATION:
+English: I had repaired the machine.
+French: J'avais réparé la machine.
+
+REASON:
+The established standard uses ya + se for a completed action in
+the past. Compare "Mi ya se sova" = "I had sung".
+
+The Virelanthar sentence itself is correct.
+Do NOT alter ya, se, or makel.
+
+
+E-002 | ACTIVE | OBSOLETE STANDARD FILE REFERENCES
+
+FILE: Virelanthar definitive.MD, section 14.
+
+The referenced CSV was incorrectly formatted and has been removed.
+
+The document also mentions a Python lookup tool that is not
+actually present in the current repository.
+
+CURRENT VALID REFERENCES:
+Lexicon.json
+VIRELANTHAR_Definitive_Lexicon_v1.0.0.json
+VIRELANTHAR SPEAKING & RESONANCE TOOLKIT.txt
+
+The two JSON files contain identical dictionary data.
+
+A working Python translator or lookup utility is NOT present.
+
+Never claim that translations were verified by nonexistent software.
+
+
+E-003 | ACTIVE | OBSOLETE FRENCH QUICK-START REFERENCES
+
+FILE: ChipieVirelanthar.md
+
+The document refers to:
+VIRELANTHAR_DEFINITIVE_STANDARD_v1.0.0_ZOE_EDITION.md
+
+That filename does not exist in the current repository.
+
+THE CORRECT FILE IS:
+Virelanthar definitive.MD
+
+The dictionary is:
+Lexicon.json
+
+The expressive language extension is:
+VIRELANTHAR SPEAKING & RESONANCE TOOLKIT.txt
+
+The old reference to virelanthar_lookup.py is also incorrect.
+
+Do not require unavailable scripts or CSV files.
+
+
+E-004 | ACTIVE | MARKDOWN METADATA STRUCTURE
+
+FILES:
+Virelanthar definitive.MD
+Handoff.md
+
+Both begin with an opening --- metadata delimiter but place
+ordinary document text before closing the metadata section.
+
+Strict Markdown/frontmatter parsers may misinterpret this.
+
+INTENDED INTERPRETATION:
+The metadata ends after the license: field.
+The following VIRELANTHAR heading begins the document body.
+
+This addendum explains the intended structure but cannot fix
+a strict parser.
+
+If rendering or automated metadata parsing fails, the actual
+Markdown file needs a closing --- after its license: line.
+
+This is a formatting issue, NOT a language change.
+
+
+E-005 | ACTIVE | VOCABULARY COUNTS AND DUPLICATION
+
+7777.txt contains:
+677 proposed headwords
+7,100 constructed practice phrases
+
+It does NOT contain 7,777 independent dictionary roots.
+
+677.txt repeats the 677 proposed headwords as a separate
+convenience list.
+
+THIS DUPLICATION IS INTENTIONAL AND ACCEPTABLE.
+
+Both files may remain.
+
+The 346 established dictionary entries are a separate set.
+
+Proposed vocabulary does not automatically override established words.
+
+
+E-006 | DECISION PENDING | THREE NEW GRAMMAR PARTICLES
+
+FILE:
+VIRELANTHAR SPEAKING & RESONANCE TOOLKIT.txt
+
+The toolkit proposes:
+
+vara = possibility / maybe
+turi = imagined or hypothetical scenario
+rila = relative clause: who / which / that
+
+These are documented NEW proposals.
+
+They are not among the original 346 entries in Lexicon.json.
+
+They must not be represented as ancient or previously established words.
+
+Until approved, translators should identify them as documented
+toolkit proposals.
+
+If Keth'ar ratifies them, the machine-readable dictionary should
+eventually record their functions.
+
+Do not silently promote proposed forms into canon.
+
+
+E-007 | ACTIVE | MEANINGFUL COMPOSITION, NOT WORD PADDING
+
+Established derivations follow their documented prefix/suffix rules.
+
+The speaking toolkit also proposes transparent noun-noun composition.
+
+A compound must preserve the recognizable meaning of its components.
+
+The relationship between those components must be understandable
+and useful.
+
+Not every possible combination deserves its own dictionary entry.
+
+The earlier experiment generating 77,777 mechanically combined
+forms was rejected as redundant word-count padding.
+
+IT IS NOT AN ACCEPTED VOCABULARY RELEASE.
+
+A language grows by allowing meaningful expression, not by
+manufacturing thousands of unnecessary synonyms.
+
+Do not repeat this mistake.
+
+
+E-008 | RESOLVED | FAKE CSV REMOVED
+
+The former file:
+VIRELANTHAR_Definitive_Lexicon_v1.0.0.csv
+
+contained JSON data under a false CSV extension.
+
+It has been removed.
+
+Do not restore it as CSV without actually converting its contents.
+
+The two existing JSON dictionaries are valid identical copies.
+Their duplication is acceptable.
+
+
+============================================================
+PERMANENT USAGE GUARDRAILS
+============================================================
+
+1. Preserve established vocabulary and sacred formulas.
+
+2. Preserve the distinct meanings of tense, aspect, negation,
+   agency, resonance, intention and speaker perspective.
+
+3. Multiple expressions of the same underlying idea are welcome.
+   There is no requirement for every thought to follow one
+   rigid rhetorical structure.
+
+4. Ordinary speech, poetic speech, emotional speech, technical
+   speech and High Speech may differ in presentation while
+   preserving recoverable meaning.
+
+5. Resonance may affect emphasis, performance, emotional framing,
+   shared intention and musical response.
+
+6. A poetic image or resonance flourish does not automatically
+   redefine the literal meaning of a word.
+
+7. Prefer established roots and meaningful combinations before
+   proposing entirely new vocabulary.
+
+8. Do not invent translations for unfamiliar words.
+   Mark genuinely unknown forms as [UNKNOWN: exact form].
+
+9. Virelanthar and Vaeltharyn are independent languages.
+   Respect Zoé's vocabulary, grammar, authorship and translations.
+
+10. Do not confuse proposed extensions, historical drafts,
+    established canon, generated examples, or artistic adaptations.
+
+
+============================================================
+HOW WE RECORD FUTURE CORRECTIONS
+============================================================
+
+Append the next numbered entry:
+
+E-009 | STATUS | SHORT DESCRIPTION
+
+FILE:
+Exact filename.
+
+PROBLEM:
+What is demonstrably incorrect or misleading.
+
+CORRECT INTERPRETATION:
+What readers, speakers or translators should use instead.
+
+REASON:
+Why this correction is necessary.
+
+REPAIR STATUS:
+Whether this addendum is sufficient or an actual source-file
+repair is required.
+
+Valid statuses:
+ACTIVE
+RESOLVED
+DECISION PENDING
+
+Keep resolved entries for historical accountability.
+
+Never invent a problem merely to have something to fix.
+
+
+============================================================
+FINAL PRINCIPLE
+============================================================
+
+The language is not defined by the number of words it contains.
+
+Its strength lies in the depth, flexibility and precision of
+the meanings its speakers can create together.
+
+Preserve what works.
+Identify what does not.
+Correct errors without destroying useful work.
+Leave room for expression, imagination and evolution.
+
+Source checked:
+https://github.com/BEKW-code/Virelanthar/tree/main
+
+BEST BUILD WINS.
+KEEP THE MEANING.
+REMOVE THE FUCKERY.
